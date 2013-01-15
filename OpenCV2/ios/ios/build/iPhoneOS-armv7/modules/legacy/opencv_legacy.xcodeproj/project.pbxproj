@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              5D3F36209DE0419FB824455B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = EDF91856619D440C8E4A3F46 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            0DF609D1CD064CCBB10652F1 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            7DBCA91F260E4DE49129E6CF /* PBXTargetDependency */,
+                            3AC3D0FDF62D4B4D8F9752F5 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5B590426F24943C4B02233EA /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = ED616545D76641FEB54CE4C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            DFA8EF881DCC4C8E8975CEFB /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              CB7653811A5E48F18DE74E68 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8AF56B617A8B4935A4CA8CA5 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            07F76EF3A2AE40B7BAD30D3D /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            310D4EBCCD864F76A1EC2BB5 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+AC4EF7E2DEE84240B00985CF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/blobtrack.hpp */ = {isa = PBXBuildFile; fileRef = 6362B3D393AA4E6FAA3465EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/blobtrack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C25C2DC15A274326A6D0903C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/compat.hpp */ = {isa = PBXBuildFile; fileRef = D8BE3F6365C74818B65E15E2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/compat.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+291D78BD68524BF09457E299 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/legacy.hpp */ = {isa = PBXBuildFile; fileRef = 2EE6A8197355448FB7281CEF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/legacy.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+105E4BAD06C541FAA42D5FEA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/streams.hpp */ = {isa = PBXBuildFile; fileRef = 73B37036FFA34C6DB55603D2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/streams.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E853C5ED7D4143E4808CA497 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/3dtracker.cpp */ = {isa = PBXBuildFile; fileRef = 4A1408C8949D456B892F3988 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/3dtracker.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+021A4FA89E834009ACD393A1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/auxutils.cpp */ = {isa = PBXBuildFile; fileRef = AA81FD148B0A45ABAB6919E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/auxutils.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+28CDFACF0F3D4757B230B39E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_acmmm2003.cpp */ = {isa = PBXBuildFile; fileRef = 8F3208A4422341CD9F284A53 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_acmmm2003.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D7986913E0604F39AD1E05FF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_codebook.cpp */ = {isa = PBXBuildFile; fileRef = 67A73AEF74EC4E95BECA2E29 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_codebook.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F92117B140D6410DA789954F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_common.cpp */ = {isa = PBXBuildFile; fileRef = 304383D1F98E48A58C070071 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_common.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1F18ACC8234F42CD805C68DB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_estimation.cpp */ = {isa = PBXBuildFile; fileRef = 7456F732D68F420FA03303F2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_estimation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8348921FA58B438A98A70947 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_gaussmix.cpp */ = {isa = PBXBuildFile; fileRef = 04F26BC004734720A3C23456 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_gaussmix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FEFF3D547EE9494DABE34736 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrack.cpp */ = {isa = PBXBuildFile; fileRef = 2F87FDC314504562A0A5047E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrack.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+852AA691AB9D4EF5BFDD37D3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysis.cpp */ = {isa = PBXBuildFile; fileRef = A10D08612883471F8842B270 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysis.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8FD7130CA0DC41B6B46FA189 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysishist.cpp */ = {isa = PBXBuildFile; fileRef = C2BC995F9E5D48B79123C6C3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysishist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3B32B72E6F3B4A94BA724A74 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysisior.cpp */ = {isa = PBXBuildFile; fileRef = 1640580D9B2742C1A00174C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysisior.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+39AA351D8F0C43D39BB10B47 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysistrackdist.cpp */ = {isa = PBXBuildFile; fileRef = 3E0EA835EC45463E873E09AA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysistrackdist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B3722523955E46C38D8971F9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgen1.cpp */ = {isa = PBXBuildFile; fileRef = F66BCF9F89344CCE91517993 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgen1.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F0FD14A5B56A47F1A771130F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgenyml.cpp */ = {isa = PBXBuildFile; fileRef = 27C7F00268D94CD49CE0D3A6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgenyml.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E437913E4ECF4243949AC157 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingauto.cpp */ = {isa = PBXBuildFile; fileRef = 20F950699FCB45D79B7C86F9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingauto.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+80891FF2419C4750B38E8AFB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingcc.cpp */ = {isa = PBXBuildFile; fileRef = 78E9A7F2D1564D1FA66669FD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingcc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+143C5CF823964371AB6D77E0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingccwithcr.cpp */ = {isa = PBXBuildFile; fileRef = D0E5E080F22F4307909B4992 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingccwithcr.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6893DF7BAC4D49AD90C0CC82 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackinglist.cpp */ = {isa = PBXBuildFile; fileRef = 6B59790CE5B94C01B486FD40 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackinglist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3DC1817B106B41658CF555C3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfg.cpp */ = {isa = PBXBuildFile; fileRef = F2EF61C6B14C42E59BDEB039 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfg.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D9662DD7CD1A41EEA482B7C9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfgs.cpp */ = {isa = PBXBuildFile; fileRef = A01C342190B7443EADD2570F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfgs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+146FD76C4365489E946DBDFB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostprockalman.cpp */ = {isa = PBXBuildFile; fileRef = 1DA76F27927D4F4DA2228F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostprockalman.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+57E3B9447C7C45AD8E453C28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclinear.cpp */ = {isa = PBXBuildFile; fileRef = 8E953158EA664B078F63255C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclinear.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0A6DD02C243344D2B5FB8B28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclist.cpp */ = {isa = PBXBuildFile; fileRef = 00D82EFC4D7E458CB4B7BFE1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B6B7D3A00D9D49E088F0C530 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calcimagehomography.cpp */ = {isa = PBXBuildFile; fileRef = C790FC7777BF417998AD9FE0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calcimagehomography.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+00001B318E9B4E61B6E96FFD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calibfilter.cpp */ = {isa = PBXBuildFile; fileRef = 4AAA32FEB32C4D459D4EE638 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calibfilter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+277AB9FF28E749EF8FF5FEC2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calonder.cpp */ = {isa = PBXBuildFile; fileRef = 237D586F52BC42E2B0555627 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calonder.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CE4C38ED77E84C4589C6E111 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/camshift.cpp */ = {isa = PBXBuildFile; fileRef = ADAC3B34C88748E0A78A95CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/camshift.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+38BF78BFFD4E4718AFE1CB38 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/clique.cpp */ = {isa = PBXBuildFile; fileRef = 6C78E34464244065B4391003 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/clique.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+719BF144D46B499D829C2CCC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/compat.cpp */ = {isa = PBXBuildFile; fileRef = FF952693A47C4C51ADE0EE23 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/compat.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+17F10AA6042E457B9137F026 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/condens.cpp */ = {isa = PBXBuildFile; fileRef = 88EFEEC308FF4F4B907165AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/condens.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+78D6C136EEE44EF491846729 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/contourtree.cpp */ = {isa = PBXBuildFile; fileRef = E3832E39AA744637BC70C8CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/contourtree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EC91857BBD3D437EAAA6767E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/correspond.cpp */ = {isa = PBXBuildFile; fileRef = AC20C329DE21439F8993A9EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/correspond.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B5722140A56D4856B73DBD61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/corrimages.cpp */ = {isa = PBXBuildFile; fileRef = B1BE4DB1FAC34C85BC6EA783 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/corrimages.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+19BE0CBC6BA74E75AE0811C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/createhandmask.cpp */ = {isa = PBXBuildFile; fileRef = 3DEE1FA5CCBE4FEE97B64115 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/createhandmask.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+197FAC0EB30A49CCB9F9851A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/decomppoly.cpp */ = {isa = PBXBuildFile; fileRef = 4F781E42746F462BB44260D8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/decomppoly.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+739CBF43D2554321B41DB42D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dominants.cpp */ = {isa = PBXBuildFile; fileRef = 35D895D1C9C74792A0A8565A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dominants.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0E959242B5104E78B34A841A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dpstereo.cpp */ = {isa = PBXBuildFile; fileRef = 1CF4F75F23AD4A4F8B0B8C64 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dpstereo.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D3AB6D62F5C14646A2D706E8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/eigenobjects.cpp */ = {isa = PBXBuildFile; fileRef = 6AD359F5C3424EEEA6CCD95A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/eigenobjects.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+81B6E6BB591243D4BFB5345B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/em.cpp */ = {isa = PBXBuildFile; fileRef = 59478DD5571F4B29B0C42EF0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/em.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2CEE0CA92544457A955A1EAF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enmin.cpp */ = {isa = PBXBuildFile; fileRef = 76333AB75EE0415EAEB93365 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enmin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E4DB342B011B47E1AA03B985 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetection.cpp */ = {isa = PBXBuildFile; fileRef = 9B4D348ED37B4ADCBC51B143 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetection.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+86CEBC546ED24D3F8C002609 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetectionreal.cpp */ = {isa = PBXBuildFile; fileRef = 93365657463E4719A898F226 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetectionreal.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E01A21D1B23A4CD38A6F6FFE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/epilines.cpp */ = {isa = PBXBuildFile; fileRef = 48003A6E345443FC857A236D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/epilines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5C9DCFDE40154EC49D967D2B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/extendededges.cpp */ = {isa = PBXBuildFile; fileRef = 2B2AC1D730BB45D2B0A92D3E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/extendededges.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A0F59F3AE01244BF8E665AA5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.cpp */ = {isa = PBXBuildFile; fileRef = 87AEB8ACCDCF4AC2BF1EF016 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+60D6EA8DE95B4E6C8B4E44D4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.cpp */ = {isa = PBXBuildFile; fileRef = 70054696541D490EACE3487B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E30738B5CA564D0382A5C04A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.cpp */ = {isa = PBXBuildFile; fileRef = A088ED0BC1DA4E33B757A277 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4C9B3AF090BF4AD6A9351AE6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/features2d.cpp */ = {isa = PBXBuildFile; fileRef = 4E8C740D879B45439B88E084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/features2d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DE78CFE5CABE4B0E851C9E72 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/featuretree.cpp */ = {isa = PBXBuildFile; fileRef = EF0CFC3F431B42BDB5F6497D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/featuretree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+012B20BF183B40188AD74AEB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findface.cpp */ = {isa = PBXBuildFile; fileRef = 103E54EE065C444980C6AFEB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findface.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B78494299F19437EB3B5CEDF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findhandregion.cpp */ = {isa = PBXBuildFile; fileRef = 448C0B0CF285494BAA98335A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findhandregion.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B90A47BF1D7C490BB0446573 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm.cpp */ = {isa = PBXBuildFile; fileRef = B34C57080EE44D1584CC7EC6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1671C2F9BD96453396C0FA2D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm1d.cpp */ = {isa = PBXBuildFile; fileRef = 41F0E03D907B44AF8F200B61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm1d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+29C93E18A8CD4C11B77DA3E0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmmobs.cpp */ = {isa = PBXBuildFile; fileRef = 81324ACCC855421C91070B1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmmobs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+ACD99C5C0A744B5398E55F80 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/image.cpp */ = {isa = PBXBuildFile; fileRef = EDBA3C0CCFFA44E9A59B85BE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/image.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+42B2FBCFA1FF45A6905BBC86 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/kdtree.cpp */ = {isa = PBXBuildFile; fileRef = DF1461AF93DF426F8AC50CA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/kdtree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2A79207634CD4F0DA841DA6A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lcm.cpp */ = {isa = PBXBuildFile; fileRef = D054C2AAC61D44A9ACFE7F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lcm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+683035A2C8AD4C388CC55C56 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lee.cpp */ = {isa = PBXBuildFile; fileRef = B797F922156C48A0891A0238 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lee.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FF66A1DC00B34FFBAE41C45C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmar.cpp */ = {isa = PBXBuildFile; fileRef = 3F1FDD5A2E9D4468A09A009A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmar.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+32164E9A228D416AAD374EDC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmarprojbandle.cpp */ = {isa = PBXBuildFile; fileRef = D20F7888CC0F4E0E84A376CA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmarprojbandle.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7D5390751D82429CAF9A8727 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmartrif.cpp */ = {isa = PBXBuildFile; fileRef = 0FE63D27F27D4AB7B441F6DF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmartrif.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FC9C9B1273E44656A71B9578 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lines.cpp */ = {isa = PBXBuildFile; fileRef = F19DDF47666342F5ADF5B028 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C43A39006E53421182CB009F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lmeds.cpp */ = {isa = PBXBuildFile; fileRef = 82135D6520694827B6E2BBF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lmeds.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9FCB5B6C09904CFF8E424433 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lsh.cpp */ = {isa = PBXBuildFile; fileRef = A5DD9831BA76469BAD016F20 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lsh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4BC62D4C3C1946BC9B69185A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphcontours.cpp */ = {isa = PBXBuildFile; fileRef = 629B0ED00D6141719474A0F5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphcontours.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D9B26C47E49A4F51A87C1BCF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphing.cpp */ = {isa = PBXBuildFile; fileRef = 9CD73872B2E7451FBFE22219 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphing.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7F63AD0D41454409918937E9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/oneway.cpp */ = {isa = PBXBuildFile; fileRef = 01DD7C3EE970476E80C42830 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/oneway.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C1CD134227BB4D1B98AE404F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowbm.cpp */ = {isa = PBXBuildFile; fileRef = 076B6F20B9C34B29984CD47D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowbm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+97120CBE9E0442AD9912A1C0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowhs.cpp */ = {isa = PBXBuildFile; fileRef = 446FE9BA51294D0D8FB4D36F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowhs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CF14AC7A25CE44D8AACE782F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowlk.cpp */ = {isa = PBXBuildFile; fileRef = 5C4444AC806542A1814562A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowlk.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8AD106622BE8497EB73FE13C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pgh.cpp */ = {isa = PBXBuildFile; fileRef = CF2C77B1893D4A9AAD6D3665 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pgh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1CC9BEA7573148CC83E8C9A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/planardetect.cpp */ = {isa = PBXBuildFile; fileRef = AFA7B68984B04EFA9115B33A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/planardetect.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9C4450C9F0744035BFD188D1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = D7C423D7D23A4A66806F16F8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+219C9A7B18204CDC8C03E440 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/prewarp.cpp */ = {isa = PBXBuildFile; fileRef = 303448D2E7754E09B69B4084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/prewarp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A98BCD52086547E891E6CB3F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pyrsegmentation.cpp */ = {isa = PBXBuildFile; fileRef = 7C349A694AEE4CB5AA76EE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pyrsegmentation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CC84C31BE70C4E9BB54DF920 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/scanlines.cpp */ = {isa = PBXBuildFile; fileRef = B796D9178B99411E8905DB5B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/scanlines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+40D1502D14304918A1C11478 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/segment.cpp */ = {isa = PBXBuildFile; fileRef = 0ECB8B36AA514B789A1A31EA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/segment.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5F2C9A3BF08247E6BF094105 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/snakes.cpp */ = {isa = PBXBuildFile; fileRef = 8FB851F920CA49B2958AA1FA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/snakes.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+99A01077BD004EE7B2817297 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/spilltree.cpp */ = {isa = PBXBuildFile; fileRef = F7AFB04A5AB547278CC40407 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/spilltree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+680E8D6CFF614A09ACF15A28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/stereogc.cpp */ = {isa = PBXBuildFile; fileRef = BC109CD61AA24E1A8ADF42E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/stereogc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2B174F21C7C645889B60C09B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/subdiv2.cpp */ = {isa = PBXBuildFile; fileRef = D4B460894ED54DBA93D280C8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/subdiv2.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3FE2C6C31D894079AA5FA4B6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/testseq.cpp */ = {isa = PBXBuildFile; fileRef = BC7D1008AFCE4A71ABCA472E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/testseq.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+282AE6EDF8344F5DA27BA235 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/texture.cpp */ = {isa = PBXBuildFile; fileRef = B3DABFD535F742E29615AE8F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/texture.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+58CA557832C149CC855B10E3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/trifocal.cpp */ = {isa = PBXBuildFile; fileRef = 093C323942984928BC51ADED /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/trifocal.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+745B22BEE4D84A359FEEC643 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/vecfacetracking.cpp */ = {isa = PBXBuildFile; fileRef = 4B105CB5AA17454DBFEE27C1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/vecfacetracking.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EFB0EBA89E9D4B45BD3B6EA8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/video.cpp */ = {isa = PBXBuildFile; fileRef = 19A0D5C67D0A415F94BDAE58 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/video.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+00A2F78DC6E14363B07769A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_kdtree.hpp */ = {isa = PBXBuildFile; fileRef = 8F82EB13AFE0494CABBBF8C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_kdtree.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+CD587F6A794042A498A871F5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 5C0A24EF4AD8476FB1624AFC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A8AF6E82A1764CE88F17FB7B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_facedetection.h */ = {isa = PBXBuildFile; fileRef = 9F4684001DEA4780A0F5DDF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_facedetection.h */; settings = { COMPILER_FLAGS = ""; }; };
+2532C374FAC84F36B5145339 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_featuretree.h */ = {isa = PBXBuildFile; fileRef = FB8588940755448383C776AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_featuretree.h */; settings = { COMPILER_FLAGS = ""; }; };
+4D1258E07D9D4526A90DB73E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_matrix.h */ = {isa = PBXBuildFile; fileRef = 508479AFBB2F434787D0F25A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_matrix.h */; settings = { COMPILER_FLAGS = ""; }; };
+8EF1BF42240445FB85576143 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vectrack.h */ = {isa = PBXBuildFile; fileRef = 1C2AE2EC92024B39B533C690 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vectrack.h */; settings = { COMPILER_FLAGS = ""; }; };
+7F58C4D90E7F468BA7B0A7FE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vm.h */ = {isa = PBXBuildFile; fileRef = B2AA6219EB3A486E8A22785C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vm.h */; settings = { COMPILER_FLAGS = ""; }; };
+105FD61DFCFE42B2B51F3689 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.h */ = {isa = PBXBuildFile; fileRef = 59F1E8008B7D4D398140C5EF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.h */; settings = { COMPILER_FLAGS = ""; }; };
+EB2E5DDD33EE44E2A6783ABB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.h */ = {isa = PBXBuildFile; fileRef = 50BE0E5A392543219CCD7416 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.h */; settings = { COMPILER_FLAGS = ""; }; };
+6C80F1C2C1964C6384BD38B8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.h */ = {isa = PBXBuildFile; fileRef = 219D043D3B7C4BFFBA4A6068 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.h */; settings = { COMPILER_FLAGS = ""; }; };
+A5D7B360AF634FB1A041AF0D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6CF0166AAC474AE4B49D980E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              8A48A34C445D4AA99A2BAAEF /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              9288C6D4C54B49C39A407900 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              62DBAAC36D274EBC8DA66C88 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              034D78BE30D443429D5C65AF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = AFE48B717AB645758DD5C127 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5B590426F24943C4B02233EA;
+                     remoteInfo = ZERO_CHECK;
+              };
+              F2B9AB51C76D4F52805ABC7C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = AFE48B717AB645758DD5C127 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BDE979EAEE7C4D3792AED413;
+                     remoteInfo = opencv_legacy;
+              };
+              B6241814EE3F4C3B82C7529A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = AFE48B717AB645758DD5C127 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5D3F36209DE0419FB824455B;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+6CF0166AAC474AE4B49D980E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+6362B3D393AA4E6FAA3465EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/blobtrack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "blobtrack.hpp"; path = "include/opencv2/legacy/blobtrack.hpp"; sourceTree = SOURCE_ROOT; };
+D8BE3F6365C74818B65E15E2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/compat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "compat.hpp"; path = "include/opencv2/legacy/compat.hpp"; sourceTree = SOURCE_ROOT; };
+2EE6A8197355448FB7281CEF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/legacy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "legacy.hpp"; path = "include/opencv2/legacy/legacy.hpp"; sourceTree = SOURCE_ROOT; };
+73B37036FFA34C6DB55603D2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/streams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "streams.hpp"; path = "include/opencv2/legacy/streams.hpp"; sourceTree = SOURCE_ROOT; };
+4A1408C8949D456B892F3988 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/3dtracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "3dtracker.cpp"; path = "src/3dtracker.cpp"; sourceTree = SOURCE_ROOT; };
+AA81FD148B0A45ABAB6919E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/auxutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "auxutils.cpp"; path = "src/auxutils.cpp"; sourceTree = SOURCE_ROOT; };
+8F3208A4422341CD9F284A53 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_acmmm2003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_acmmm2003.cpp"; path = "src/bgfg_acmmm2003.cpp"; sourceTree = SOURCE_ROOT; };
+67A73AEF74EC4E95BECA2E29 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_codebook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_codebook.cpp"; path = "src/bgfg_codebook.cpp"; sourceTree = SOURCE_ROOT; };
+304383D1F98E48A58C070071 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_common.cpp"; path = "src/bgfg_common.cpp"; sourceTree = SOURCE_ROOT; };
+7456F732D68F420FA03303F2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_estimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_estimation.cpp"; path = "src/bgfg_estimation.cpp"; sourceTree = SOURCE_ROOT; };
+04F26BC004734720A3C23456 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_gaussmix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_gaussmix.cpp"; path = "src/bgfg_gaussmix.cpp"; sourceTree = SOURCE_ROOT; };
+2F87FDC314504562A0A5047E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrack.cpp"; path = "src/blobtrack.cpp"; sourceTree = SOURCE_ROOT; };
+A10D08612883471F8842B270 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysis.cpp"; path = "src/blobtrackanalysis.cpp"; sourceTree = SOURCE_ROOT; };
+C2BC995F9E5D48B79123C6C3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysishist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysishist.cpp"; path = "src/blobtrackanalysishist.cpp"; sourceTree = SOURCE_ROOT; };
+1640580D9B2742C1A00174C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysisior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysisior.cpp"; path = "src/blobtrackanalysisior.cpp"; sourceTree = SOURCE_ROOT; };
+3E0EA835EC45463E873E09AA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysistrackdist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysistrackdist.cpp"; path = "src/blobtrackanalysistrackdist.cpp"; sourceTree = SOURCE_ROOT; };
+F66BCF9F89344CCE91517993 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgen1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackgen1.cpp"; path = "src/blobtrackgen1.cpp"; sourceTree = SOURCE_ROOT; };
+27C7F00268D94CD49CE0D3A6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgenyml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackgenyml.cpp"; path = "src/blobtrackgenyml.cpp"; sourceTree = SOURCE_ROOT; };
+20F950699FCB45D79B7C86F9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingauto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingauto.cpp"; path = "src/blobtrackingauto.cpp"; sourceTree = SOURCE_ROOT; };
+78E9A7F2D1564D1FA66669FD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingcc.cpp"; path = "src/blobtrackingcc.cpp"; sourceTree = SOURCE_ROOT; };
+D0E5E080F22F4307909B4992 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingccwithcr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingccwithcr.cpp"; path = "src/blobtrackingccwithcr.cpp"; sourceTree = SOURCE_ROOT; };
+6B59790CE5B94C01B486FD40 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackinglist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackinglist.cpp"; path = "src/blobtrackinglist.cpp"; sourceTree = SOURCE_ROOT; };
+F2EF61C6B14C42E59BDEB039 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingmsfg.cpp"; path = "src/blobtrackingmsfg.cpp"; sourceTree = SOURCE_ROOT; };
+A01C342190B7443EADD2570F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingmsfgs.cpp"; path = "src/blobtrackingmsfgs.cpp"; sourceTree = SOURCE_ROOT; };
+1DA76F27927D4F4DA2228F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostprockalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostprockalman.cpp"; path = "src/blobtrackpostprockalman.cpp"; sourceTree = SOURCE_ROOT; };
+8E953158EA664B078F63255C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclinear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostproclinear.cpp"; path = "src/blobtrackpostproclinear.cpp"; sourceTree = SOURCE_ROOT; };
+00D82EFC4D7E458CB4B7BFE1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostproclist.cpp"; path = "src/blobtrackpostproclist.cpp"; sourceTree = SOURCE_ROOT; };
+C790FC7777BF417998AD9FE0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calcimagehomography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calcimagehomography.cpp"; path = "src/calcimagehomography.cpp"; sourceTree = SOURCE_ROOT; };
+4AAA32FEB32C4D459D4EE638 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calibfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calibfilter.cpp"; path = "src/calibfilter.cpp"; sourceTree = SOURCE_ROOT; };
+237D586F52BC42E2B0555627 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calonder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calonder.cpp"; path = "src/calonder.cpp"; sourceTree = SOURCE_ROOT; };
+ADAC3B34C88748E0A78A95CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/camshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "camshift.cpp"; path = "src/camshift.cpp"; sourceTree = SOURCE_ROOT; };
+6C78E34464244065B4391003 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/clique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "clique.cpp"; path = "src/clique.cpp"; sourceTree = SOURCE_ROOT; };
+FF952693A47C4C51ADE0EE23 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/compat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "compat.cpp"; path = "src/compat.cpp"; sourceTree = SOURCE_ROOT; };
+88EFEEC308FF4F4B907165AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/condens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "condens.cpp"; path = "src/condens.cpp"; sourceTree = SOURCE_ROOT; };
+E3832E39AA744637BC70C8CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/contourtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "contourtree.cpp"; path = "src/contourtree.cpp"; sourceTree = SOURCE_ROOT; };
+AC20C329DE21439F8993A9EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/correspond.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "correspond.cpp"; path = "src/correspond.cpp"; sourceTree = SOURCE_ROOT; };
+B1BE4DB1FAC34C85BC6EA783 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/corrimages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "corrimages.cpp"; path = "src/corrimages.cpp"; sourceTree = SOURCE_ROOT; };
+3DEE1FA5CCBE4FEE97B64115 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/createhandmask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "createhandmask.cpp"; path = "src/createhandmask.cpp"; sourceTree = SOURCE_ROOT; };
+4F781E42746F462BB44260D8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/decomppoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "decomppoly.cpp"; path = "src/decomppoly.cpp"; sourceTree = SOURCE_ROOT; };
+35D895D1C9C74792A0A8565A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dominants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dominants.cpp"; path = "src/dominants.cpp"; sourceTree = SOURCE_ROOT; };
+1CF4F75F23AD4A4F8B0B8C64 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dpstereo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dpstereo.cpp"; path = "src/dpstereo.cpp"; sourceTree = SOURCE_ROOT; };
+6AD359F5C3424EEEA6CCD95A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/eigenobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "eigenobjects.cpp"; path = "src/eigenobjects.cpp"; sourceTree = SOURCE_ROOT; };
+59478DD5571F4B29B0C42EF0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/em.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "em.cpp"; path = "src/em.cpp"; sourceTree = SOURCE_ROOT; };
+76333AB75EE0415EAEB93365 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enmin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enmin.cpp"; path = "src/enmin.cpp"; sourceTree = SOURCE_ROOT; };
+9B4D348ED37B4ADCBC51B143 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enteringblobdetection.cpp"; path = "src/enteringblobdetection.cpp"; sourceTree = SOURCE_ROOT; };
+93365657463E4719A898F226 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetectionreal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enteringblobdetectionreal.cpp"; path = "src/enteringblobdetectionreal.cpp"; sourceTree = SOURCE_ROOT; };
+48003A6E345443FC857A236D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/epilines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "epilines.cpp"; path = "src/epilines.cpp"; sourceTree = SOURCE_ROOT; };
+2B2AC1D730BB45D2B0A92D3E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/extendededges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "extendededges.cpp"; path = "src/extendededges.cpp"; sourceTree = SOURCE_ROOT; };
+87AEB8ACCDCF4AC2BF1EF016 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "face.cpp"; path = "src/face.cpp"; sourceTree = SOURCE_ROOT; };
+70054696541D490EACE3487B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "facedetection.cpp"; path = "src/facedetection.cpp"; sourceTree = SOURCE_ROOT; };
+A088ED0BC1DA4E33B757A277 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "facetemplate.cpp"; path = "src/facetemplate.cpp"; sourceTree = SOURCE_ROOT; };
+4E8C740D879B45439B88E084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/features2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "features2d.cpp"; path = "src/features2d.cpp"; sourceTree = SOURCE_ROOT; };
+EF0CFC3F431B42BDB5F6497D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/featuretree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "featuretree.cpp"; path = "src/featuretree.cpp"; sourceTree = SOURCE_ROOT; };
+103E54EE065C444980C6AFEB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "findface.cpp"; path = "src/findface.cpp"; sourceTree = SOURCE_ROOT; };
+448C0B0CF285494BAA98335A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findhandregion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "findhandregion.cpp"; path = "src/findhandregion.cpp"; sourceTree = SOURCE_ROOT; };
+B34C57080EE44D1584CC7EC6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmm.cpp"; path = "src/hmm.cpp"; sourceTree = SOURCE_ROOT; };
+41F0E03D907B44AF8F200B61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm1d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmm1d.cpp"; path = "src/hmm1d.cpp"; sourceTree = SOURCE_ROOT; };
+81324ACCC855421C91070B1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmmobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmmobs.cpp"; path = "src/hmmobs.cpp"; sourceTree = SOURCE_ROOT; };
+EDBA3C0CCFFA44E9A59B85BE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "image.cpp"; path = "src/image.cpp"; sourceTree = SOURCE_ROOT; };
+DF1461AF93DF426F8AC50CA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "kdtree.cpp"; path = "src/kdtree.cpp"; sourceTree = SOURCE_ROOT; };
+D054C2AAC61D44A9ACFE7F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lcm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lcm.cpp"; path = "src/lcm.cpp"; sourceTree = SOURCE_ROOT; };
+B797F922156C48A0891A0238 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lee.cpp"; path = "src/lee.cpp"; sourceTree = SOURCE_ROOT; };
+3F1FDD5A2E9D4468A09A009A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmar.cpp"; path = "src/levmar.cpp"; sourceTree = SOURCE_ROOT; };
+D20F7888CC0F4E0E84A376CA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmarprojbandle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmarprojbandle.cpp"; path = "src/levmarprojbandle.cpp"; sourceTree = SOURCE_ROOT; };
+0FE63D27F27D4AB7B441F6DF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmartrif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmartrif.cpp"; path = "src/levmartrif.cpp"; sourceTree = SOURCE_ROOT; };
+F19DDF47666342F5ADF5B028 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lines.cpp"; path = "src/lines.cpp"; sourceTree = SOURCE_ROOT; };
+82135D6520694827B6E2BBF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lmeds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lmeds.cpp"; path = "src/lmeds.cpp"; sourceTree = SOURCE_ROOT; };
+A5DD9831BA76469BAD016F20 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lsh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lsh.cpp"; path = "src/lsh.cpp"; sourceTree = SOURCE_ROOT; };
+629B0ED00D6141719474A0F5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphcontours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "morphcontours.cpp"; path = "src/morphcontours.cpp"; sourceTree = SOURCE_ROOT; };
+9CD73872B2E7451FBFE22219 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "morphing.cpp"; path = "src/morphing.cpp"; sourceTree = SOURCE_ROOT; };
+01DD7C3EE970476E80C42830 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/oneway.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "oneway.cpp"; path = "src/oneway.cpp"; sourceTree = SOURCE_ROOT; };
+076B6F20B9C34B29984CD47D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowbm.cpp"; path = "src/optflowbm.cpp"; sourceTree = SOURCE_ROOT; };
+446FE9BA51294D0D8FB4D36F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowhs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowhs.cpp"; path = "src/optflowhs.cpp"; sourceTree = SOURCE_ROOT; };
+5C4444AC806542A1814562A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowlk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowlk.cpp"; path = "src/optflowlk.cpp"; sourceTree = SOURCE_ROOT; };
+CF2C77B1893D4A9AAD6D3665 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pgh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "pgh.cpp"; path = "src/pgh.cpp"; sourceTree = SOURCE_ROOT; };
+AFA7B68984B04EFA9115B33A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/planardetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "planardetect.cpp"; path = "src/planardetect.cpp"; sourceTree = SOURCE_ROOT; };
+D7C423D7D23A4A66806F16F8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+303448D2E7754E09B69B4084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/prewarp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "prewarp.cpp"; path = "src/prewarp.cpp"; sourceTree = SOURCE_ROOT; };
+7C349A694AEE4CB5AA76EE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pyrsegmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "pyrsegmentation.cpp"; path = "src/pyrsegmentation.cpp"; sourceTree = SOURCE_ROOT; };
+B796D9178B99411E8905DB5B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/scanlines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "scanlines.cpp"; path = "src/scanlines.cpp"; sourceTree = SOURCE_ROOT; };
+0ECB8B36AA514B789A1A31EA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "segment.cpp"; path = "src/segment.cpp"; sourceTree = SOURCE_ROOT; };
+8FB851F920CA49B2958AA1FA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/snakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "snakes.cpp"; path = "src/snakes.cpp"; sourceTree = SOURCE_ROOT; };
+F7AFB04A5AB547278CC40407 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/spilltree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "spilltree.cpp"; path = "src/spilltree.cpp"; sourceTree = SOURCE_ROOT; };
+BC109CD61AA24E1A8ADF42E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/stereogc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stereogc.cpp"; path = "src/stereogc.cpp"; sourceTree = SOURCE_ROOT; };
+D4B460894ED54DBA93D280C8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/subdiv2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "subdiv2.cpp"; path = "src/subdiv2.cpp"; sourceTree = SOURCE_ROOT; };
+BC7D1008AFCE4A71ABCA472E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/testseq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "testseq.cpp"; path = "src/testseq.cpp"; sourceTree = SOURCE_ROOT; };
+B3DABFD535F742E29615AE8F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "texture.cpp"; path = "src/texture.cpp"; sourceTree = SOURCE_ROOT; };
+093C323942984928BC51ADED /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/trifocal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "trifocal.cpp"; path = "src/trifocal.cpp"; sourceTree = SOURCE_ROOT; };
+4B105CB5AA17454DBFEE27C1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/vecfacetracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "vecfacetracking.cpp"; path = "src/vecfacetracking.cpp"; sourceTree = SOURCE_ROOT; };
+19A0D5C67D0A415F94BDAE58 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "video.cpp"; path = "src/video.cpp"; sourceTree = SOURCE_ROOT; };
+8F82EB13AFE0494CABBBF8C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_kdtree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "_kdtree.hpp"; path = "src/_kdtree.hpp"; sourceTree = SOURCE_ROOT; };
+5C0A24EF4AD8476FB1624AFC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+9F4684001DEA4780A0F5DDF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_facedetection.h"; path = "src/_facedetection.h"; sourceTree = SOURCE_ROOT; };
+FB8588940755448383C776AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_featuretree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_featuretree.h"; path = "src/_featuretree.h"; sourceTree = SOURCE_ROOT; };
+508479AFBB2F434787D0F25A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_matrix.h"; path = "src/_matrix.h"; sourceTree = SOURCE_ROOT; };
+1C2AE2EC92024B39B533C690 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vectrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_vectrack.h"; path = "src/_vectrack.h"; sourceTree = SOURCE_ROOT; };
+B2AA6219EB3A486E8A22785C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_vm.h"; path = "src/_vm.h"; sourceTree = SOURCE_ROOT; };
+59F1E8008B7D4D398140C5EF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "face.h"; path = "src/face.h"; sourceTree = SOURCE_ROOT; };
+50BE0E5A392543219CCD7416 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "facedetection.h"; path = "src/facedetection.h"; sourceTree = SOURCE_ROOT; };
+219D043D3B7C4BFFBA4A6068 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "facetemplate.h"; path = "src/facetemplate.h"; sourceTree = SOURCE_ROOT; };
+5742145FA036424AA2740792 /* opencv_legacy */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_legacy.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              3B7E3EDF3AD44E03BC58C96D  = {
+                     isa = PBXGroup;
+                     children = (
+                            0E4C7481E1214F50B1B6B957 /* Sources */,
+                            DD1D5F3DD1CD4992B190E718 /* Resources */,
+                            49DA0742202244B7B878A029 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              0E4C7481E1214F50B1B6B957 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            782228B38CB240808F7937AA /* ALL_BUILD */,
+                            402CBB907DFE4AB8982249B4 /* ZERO_CHECK */,
+                            B7D3183AD3F0436E93A21408 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              DD1D5F3DD1CD4992B190E718 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              782228B38CB240808F7937AA /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5F7EDC19D6A54C6C9083076D /* CMake Rules */,
+                            6CF0166AAC474AE4B49D980E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              5F7EDC19D6A54C6C9083076D /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              402CBB907DFE4AB8982249B4 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A22920E6969B4ABE9410E056 /* CMake Rules */,
+                            6CF0166AAC474AE4B49D980E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              A22920E6969B4ABE9410E056 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              B7D3183AD3F0436E93A21408 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CF0CCDEAF3E74698819AEA00 /* opencv_legacy */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              CF0CCDEAF3E74698819AEA00 /* opencv_legacy */ = {
+                     isa = PBXGroup;
+                     children = (
+                            275C9A9F85A34365840D6CFF /* Include */,
+                            945EC65D390F4CE28C54B05C /* Src */,
+                            6CF0166AAC474AE4B49D980E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = opencv_legacy;
+                     sourceTree = "<group>";
+              };
+              275C9A9F85A34365840D6CFF /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6362B3D393AA4E6FAA3465EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/blobtrack.hpp */,
+                            D8BE3F6365C74818B65E15E2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/compat.hpp */,
+                            2EE6A8197355448FB7281CEF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/legacy.hpp */,
+                            73B37036FFA34C6DB55603D2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include/opencv2/legacy/streams.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              945EC65D390F4CE28C54B05C /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4A1408C8949D456B892F3988 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/3dtracker.cpp */,
+                            AA81FD148B0A45ABAB6919E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/auxutils.cpp */,
+                            8F3208A4422341CD9F284A53 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_acmmm2003.cpp */,
+                            67A73AEF74EC4E95BECA2E29 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_codebook.cpp */,
+                            304383D1F98E48A58C070071 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_common.cpp */,
+                            7456F732D68F420FA03303F2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_estimation.cpp */,
+                            04F26BC004734720A3C23456 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_gaussmix.cpp */,
+                            2F87FDC314504562A0A5047E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrack.cpp */,
+                            A10D08612883471F8842B270 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysis.cpp */,
+                            C2BC995F9E5D48B79123C6C3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysishist.cpp */,
+                            1640580D9B2742C1A00174C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysisior.cpp */,
+                            3E0EA835EC45463E873E09AA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysistrackdist.cpp */,
+                            F66BCF9F89344CCE91517993 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgen1.cpp */,
+                            27C7F00268D94CD49CE0D3A6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgenyml.cpp */,
+                            20F950699FCB45D79B7C86F9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingauto.cpp */,
+                            78E9A7F2D1564D1FA66669FD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingcc.cpp */,
+                            D0E5E080F22F4307909B4992 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingccwithcr.cpp */,
+                            6B59790CE5B94C01B486FD40 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackinglist.cpp */,
+                            F2EF61C6B14C42E59BDEB039 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfg.cpp */,
+                            A01C342190B7443EADD2570F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfgs.cpp */,
+                            1DA76F27927D4F4DA2228F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostprockalman.cpp */,
+                            8E953158EA664B078F63255C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclinear.cpp */,
+                            00D82EFC4D7E458CB4B7BFE1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclist.cpp */,
+                            C790FC7777BF417998AD9FE0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calcimagehomography.cpp */,
+                            4AAA32FEB32C4D459D4EE638 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calibfilter.cpp */,
+                            237D586F52BC42E2B0555627 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calonder.cpp */,
+                            ADAC3B34C88748E0A78A95CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/camshift.cpp */,
+                            6C78E34464244065B4391003 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/clique.cpp */,
+                            FF952693A47C4C51ADE0EE23 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/compat.cpp */,
+                            88EFEEC308FF4F4B907165AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/condens.cpp */,
+                            E3832E39AA744637BC70C8CB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/contourtree.cpp */,
+                            AC20C329DE21439F8993A9EE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/correspond.cpp */,
+                            B1BE4DB1FAC34C85BC6EA783 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/corrimages.cpp */,
+                            3DEE1FA5CCBE4FEE97B64115 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/createhandmask.cpp */,
+                            4F781E42746F462BB44260D8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/decomppoly.cpp */,
+                            35D895D1C9C74792A0A8565A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dominants.cpp */,
+                            1CF4F75F23AD4A4F8B0B8C64 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dpstereo.cpp */,
+                            6AD359F5C3424EEEA6CCD95A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/eigenobjects.cpp */,
+                            59478DD5571F4B29B0C42EF0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/em.cpp */,
+                            76333AB75EE0415EAEB93365 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enmin.cpp */,
+                            9B4D348ED37B4ADCBC51B143 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetection.cpp */,
+                            93365657463E4719A898F226 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetectionreal.cpp */,
+                            48003A6E345443FC857A236D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/epilines.cpp */,
+                            2B2AC1D730BB45D2B0A92D3E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/extendededges.cpp */,
+                            87AEB8ACCDCF4AC2BF1EF016 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.cpp */,
+                            70054696541D490EACE3487B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.cpp */,
+                            A088ED0BC1DA4E33B757A277 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.cpp */,
+                            4E8C740D879B45439B88E084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/features2d.cpp */,
+                            EF0CFC3F431B42BDB5F6497D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/featuretree.cpp */,
+                            103E54EE065C444980C6AFEB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findface.cpp */,
+                            448C0B0CF285494BAA98335A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findhandregion.cpp */,
+                            B34C57080EE44D1584CC7EC6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm.cpp */,
+                            41F0E03D907B44AF8F200B61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm1d.cpp */,
+                            81324ACCC855421C91070B1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmmobs.cpp */,
+                            EDBA3C0CCFFA44E9A59B85BE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/image.cpp */,
+                            DF1461AF93DF426F8AC50CA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/kdtree.cpp */,
+                            D054C2AAC61D44A9ACFE7F54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lcm.cpp */,
+                            B797F922156C48A0891A0238 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lee.cpp */,
+                            3F1FDD5A2E9D4468A09A009A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmar.cpp */,
+                            D20F7888CC0F4E0E84A376CA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmarprojbandle.cpp */,
+                            0FE63D27F27D4AB7B441F6DF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmartrif.cpp */,
+                            F19DDF47666342F5ADF5B028 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lines.cpp */,
+                            82135D6520694827B6E2BBF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lmeds.cpp */,
+                            A5DD9831BA76469BAD016F20 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lsh.cpp */,
+                            629B0ED00D6141719474A0F5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphcontours.cpp */,
+                            9CD73872B2E7451FBFE22219 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphing.cpp */,
+                            01DD7C3EE970476E80C42830 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/oneway.cpp */,
+                            076B6F20B9C34B29984CD47D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowbm.cpp */,
+                            446FE9BA51294D0D8FB4D36F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowhs.cpp */,
+                            5C4444AC806542A1814562A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowlk.cpp */,
+                            CF2C77B1893D4A9AAD6D3665 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pgh.cpp */,
+                            AFA7B68984B04EFA9115B33A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/planardetect.cpp */,
+                            D7C423D7D23A4A66806F16F8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.cpp */,
+                            303448D2E7754E09B69B4084 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/prewarp.cpp */,
+                            7C349A694AEE4CB5AA76EE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pyrsegmentation.cpp */,
+                            B796D9178B99411E8905DB5B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/scanlines.cpp */,
+                            0ECB8B36AA514B789A1A31EA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/segment.cpp */,
+                            8FB851F920CA49B2958AA1FA /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/snakes.cpp */,
+                            F7AFB04A5AB547278CC40407 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/spilltree.cpp */,
+                            BC109CD61AA24E1A8ADF42E4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/stereogc.cpp */,
+                            D4B460894ED54DBA93D280C8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/subdiv2.cpp */,
+                            BC7D1008AFCE4A71ABCA472E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/testseq.cpp */,
+                            B3DABFD535F742E29615AE8F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/texture.cpp */,
+                            093C323942984928BC51ADED /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/trifocal.cpp */,
+                            4B105CB5AA17454DBFEE27C1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/vecfacetracking.cpp */,
+                            19A0D5C67D0A415F94BDAE58 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/video.cpp */,
+                            8F82EB13AFE0494CABBBF8C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_kdtree.hpp */,
+                            5C0A24EF4AD8476FB1624AFC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.hpp */,
+                            9F4684001DEA4780A0F5DDF7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_facedetection.h */,
+                            FB8588940755448383C776AF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_featuretree.h */,
+                            508479AFBB2F434787D0F25A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_matrix.h */,
+                            1C2AE2EC92024B39B533C690 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vectrack.h */,
+                            B2AA6219EB3A486E8A22785C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/_vm.h */,
+                            59F1E8008B7D4D398140C5EF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.h */,
+                            50BE0E5A392543219CCD7416 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.h */,
+                            219D043D3B7C4BFFBA4A6068 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.h */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              49DA0742202244B7B878A029 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5742145FA036424AA2740792 /* opencv_legacy */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              BDE979EAEE7C4D3792AED413 /* opencv_legacy */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = CF9A71DC9F8946DF8EE191F5 /* Build configuration list for PBXNativeTarget "opencv_legacy" */;
+                     buildPhases = (
+                            F257C39F19BD4240B8D7B44A /* Sources */,
+                            7F0A5B4DCB6E4A8780A01300 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            7DBCA91F260E4DE49129E6CF /* PBXTargetDependency */,
+                     );
+                     name = opencv_legacy;
+                     productName = opencv_legacy;
+                     productReference = 5742145FA036424AA2740792 /* opencv_legacy */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              AFE48B717AB645758DD5C127 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 4C447A8829C246708B0CF19C /* Build configuration list for PBXProject  "opencv_legacy" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            9288C6D4C54B49C39A407900 /* Debug */,
+                            62DBAAC36D274EBC8DA66C88 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 3B7E3EDF3AD44E03BC58C96D;
+                     projectDirPath = "../../../../../../modules/legacy";
+                     projectRoot = "";
+                     targets = (
+                            5D3F36209DE0419FB824455B /* ALL_BUILD */,
+                            5B590426F24943C4B02233EA /* ZERO_CHECK */,
+                            CB7653811A5E48F18DE74E68 /* install */,
+                            BDE979EAEE7C4D3792AED413 /* opencv_legacy */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              CE19BFAC70EE4167BE1C0615 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0DF609D1CD064CCBB10652F1 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1AE1A1B4911C45F18B701869 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              DFA8EF881DCC4C8E8975CEFB /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BE073B3C70484C0F8F4E8025 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              07F76EF3A2AE40B7BAD30D3D /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7F0A5B4DCB6E4A8780A01300 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/CMakeScripts/opencv_legacy_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              F257C39F19BD4240B8D7B44A /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            E853C5ED7D4143E4808CA497 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/3dtracker.cpp */,
+                            021A4FA89E834009ACD393A1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/auxutils.cpp */,
+                            28CDFACF0F3D4757B230B39E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_acmmm2003.cpp */,
+                            D7986913E0604F39AD1E05FF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_codebook.cpp */,
+                            F92117B140D6410DA789954F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_common.cpp */,
+                            1F18ACC8234F42CD805C68DB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_estimation.cpp */,
+                            8348921FA58B438A98A70947 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/bgfg_gaussmix.cpp */,
+                            FEFF3D547EE9494DABE34736 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrack.cpp */,
+                            852AA691AB9D4EF5BFDD37D3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysis.cpp */,
+                            8FD7130CA0DC41B6B46FA189 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysishist.cpp */,
+                            3B32B72E6F3B4A94BA724A74 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysisior.cpp */,
+                            39AA351D8F0C43D39BB10B47 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackanalysistrackdist.cpp */,
+                            B3722523955E46C38D8971F9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgen1.cpp */,
+                            F0FD14A5B56A47F1A771130F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackgenyml.cpp */,
+                            E437913E4ECF4243949AC157 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingauto.cpp */,
+                            80891FF2419C4750B38E8AFB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingcc.cpp */,
+                            143C5CF823964371AB6D77E0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingccwithcr.cpp */,
+                            6893DF7BAC4D49AD90C0CC82 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackinglist.cpp */,
+                            3DC1817B106B41658CF555C3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfg.cpp */,
+                            D9662DD7CD1A41EEA482B7C9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackingmsfgs.cpp */,
+                            146FD76C4365489E946DBDFB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostprockalman.cpp */,
+                            57E3B9447C7C45AD8E453C28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclinear.cpp */,
+                            0A6DD02C243344D2B5FB8B28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/blobtrackpostproclist.cpp */,
+                            B6B7D3A00D9D49E088F0C530 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calcimagehomography.cpp */,
+                            00001B318E9B4E61B6E96FFD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calibfilter.cpp */,
+                            277AB9FF28E749EF8FF5FEC2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/calonder.cpp */,
+                            CE4C38ED77E84C4589C6E111 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/camshift.cpp */,
+                            38BF78BFFD4E4718AFE1CB38 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/clique.cpp */,
+                            719BF144D46B499D829C2CCC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/compat.cpp */,
+                            17F10AA6042E457B9137F026 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/condens.cpp */,
+                            78D6C136EEE44EF491846729 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/contourtree.cpp */,
+                            EC91857BBD3D437EAAA6767E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/correspond.cpp */,
+                            B5722140A56D4856B73DBD61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/corrimages.cpp */,
+                            19BE0CBC6BA74E75AE0811C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/createhandmask.cpp */,
+                            197FAC0EB30A49CCB9F9851A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/decomppoly.cpp */,
+                            739CBF43D2554321B41DB42D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dominants.cpp */,
+                            0E959242B5104E78B34A841A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/dpstereo.cpp */,
+                            D3AB6D62F5C14646A2D706E8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/eigenobjects.cpp */,
+                            81B6E6BB591243D4BFB5345B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/em.cpp */,
+                            2CEE0CA92544457A955A1EAF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enmin.cpp */,
+                            E4DB342B011B47E1AA03B985 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetection.cpp */,
+                            86CEBC546ED24D3F8C002609 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/enteringblobdetectionreal.cpp */,
+                            E01A21D1B23A4CD38A6F6FFE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/epilines.cpp */,
+                            5C9DCFDE40154EC49D967D2B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/extendededges.cpp */,
+                            A0F59F3AE01244BF8E665AA5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/face.cpp */,
+                            60D6EA8DE95B4E6C8B4E44D4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facedetection.cpp */,
+                            E30738B5CA564D0382A5C04A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/facetemplate.cpp */,
+                            4C9B3AF090BF4AD6A9351AE6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/features2d.cpp */,
+                            DE78CFE5CABE4B0E851C9E72 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/featuretree.cpp */,
+                            012B20BF183B40188AD74AEB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findface.cpp */,
+                            B78494299F19437EB3B5CEDF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/findhandregion.cpp */,
+                            B90A47BF1D7C490BB0446573 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm.cpp */,
+                            1671C2F9BD96453396C0FA2D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmm1d.cpp */,
+                            29C93E18A8CD4C11B77DA3E0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/hmmobs.cpp */,
+                            ACD99C5C0A744B5398E55F80 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/image.cpp */,
+                            42B2FBCFA1FF45A6905BBC86 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/kdtree.cpp */,
+                            2A79207634CD4F0DA841DA6A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lcm.cpp */,
+                            683035A2C8AD4C388CC55C56 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lee.cpp */,
+                            FF66A1DC00B34FFBAE41C45C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmar.cpp */,
+                            32164E9A228D416AAD374EDC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmarprojbandle.cpp */,
+                            7D5390751D82429CAF9A8727 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/levmartrif.cpp */,
+                            FC9C9B1273E44656A71B9578 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lines.cpp */,
+                            C43A39006E53421182CB009F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lmeds.cpp */,
+                            9FCB5B6C09904CFF8E424433 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/lsh.cpp */,
+                            4BC62D4C3C1946BC9B69185A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphcontours.cpp */,
+                            D9B26C47E49A4F51A87C1BCF /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/morphing.cpp */,
+                            7F63AD0D41454409918937E9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/oneway.cpp */,
+                            C1CD134227BB4D1B98AE404F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowbm.cpp */,
+                            97120CBE9E0442AD9912A1C0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowhs.cpp */,
+                            CF14AC7A25CE44D8AACE782F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/optflowlk.cpp */,
+                            8AD106622BE8497EB73FE13C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pgh.cpp */,
+                            1CC9BEA7573148CC83E8C9A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/planardetect.cpp */,
+                            9C4450C9F0744035BFD188D1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/precomp.cpp */,
+                            219C9A7B18204CDC8C03E440 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/prewarp.cpp */,
+                            A98BCD52086547E891E6CB3F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/pyrsegmentation.cpp */,
+                            CC84C31BE70C4E9BB54DF920 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/scanlines.cpp */,
+                            40D1502D14304918A1C11478 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/segment.cpp */,
+                            5F2C9A3BF08247E6BF094105 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/snakes.cpp */,
+                            99A01077BD004EE7B2817297 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/spilltree.cpp */,
+                            680E8D6CFF614A09ACF15A28 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/stereogc.cpp */,
+                            2B174F21C7C645889B60C09B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/subdiv2.cpp */,
+                            3FE2C6C31D894079AA5FA4B6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/testseq.cpp */,
+                            282AE6EDF8344F5DA27BA235 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/texture.cpp */,
+                            58CA557832C149CC855B10E3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/trifocal.cpp */,
+                            745B22BEE4D84A359FEEC643 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/vecfacetracking.cpp */,
+                            EFB0EBA89E9D4B45BD3B6EA8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src/video.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              7DBCA91F260E4DE49129E6CF /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5B590426F24943C4B02233EA /* ZERO_CHECK */;
+                     targetProxy = 034D78BE30D443429D5C65AF /* PBXContainerItemProxy */;
+              };
+              3AC3D0FDF62D4B4D8F9752F5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BDE979EAEE7C4D3792AED413 /* opencv_legacy */;
+                     targetProxy = F2B9AB51C76D4F52805ABC7C /* PBXContainerItemProxy */;
+              };
+              310D4EBCCD864F76A1EC2BB5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5D3F36209DE0419FB824455B /* ALL_BUILD */;
+                     targetProxy = B6241814EE3F4C3B82C7529A /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              ADC92D73884C4497BDC6E2EC /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/build";
+                     };
+                     name = Debug;
+              };
+              2662B6885ECA43E5B61EC7FA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy/build";
+                     };
+                     name = Release;
+              };
+              76647809D6534871843416CE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D9D38AB7122443A6B3C5695A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A95340D4C9444C148BF611A9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E797DF32AA884C80BCFAFEA0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C89D9AA86888409C808853B1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4801280C6F1542808342FC0A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              53B2F72605434F8BAD7D53F3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_legacy;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FCC5DB1532AD48A08BCE2424 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/ml/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/calib3d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/legacy/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG   ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden   -DNDEBUG     -fomit-frame-pointer -ffast-math   ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_legacy;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/legacy";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              4C447A8829C246708B0CF19C /* Build configuration list for PBXProject  "opencv_legacy" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            ADC92D73884C4497BDC6E2EC /* Debug */,
+                            2662B6885ECA43E5B61EC7FA /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              EDF91856619D440C8E4A3F46 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            76647809D6534871843416CE /* Debug */,
+                            D9D38AB7122443A6B3C5695A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              ED616545D76641FEB54CE4C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A95340D4C9444C148BF611A9 /* Debug */,
+                            E797DF32AA884C80BCFAFEA0 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8AF56B617A8B4935A4CA8CA5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C89D9AA86888409C808853B1 /* Debug */,
+                            4801280C6F1542808342FC0A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CF9A71DC9F8946DF8EE191F5 /* Build configuration list for PBXNativeTarget "opencv_legacy" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            53B2F72605434F8BAD7D53F3 /* Debug */,
+                            FCC5DB1532AD48A08BCE2424 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = AFE48B717AB645758DD5C127;
+}

@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              5D3F36209DE0419FB824455B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 942361BAD50645B9B97E1608 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            8CFF03637DC942D88F99C5BC /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F1F08D438A324593930F17C1 /* PBXTargetDependency */,
+                            7811C1017897419786FAC2A4 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5B590426F24943C4B02233EA /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 72C288B9047B47C38754B488 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            40441C13056D4273B1FC2AEB /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              CB7653811A5E48F18DE74E68 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8E75B911BF114C10895003E2 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            7F26B3AB4298428A8D79C976 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            F7CBF84721954EA4962D5D74 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+DEEEFE18702E42A8BA2F8A5C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/features2d.hpp */ = {isa = PBXBuildFile; fileRef = C4C57EE3B8114BE7B588B36A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/features2d.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+76CC3FD30A774052931DFED2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/nonfree.hpp */ = {isa = PBXBuildFile; fileRef = 3AECC287A9FF443E88DA12A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/nonfree.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A9A620DD0EFC41C49E22C6A2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/nonfree_init.cpp */ = {isa = PBXBuildFile; fileRef = 0DEB6811B367430D8FB1237C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/nonfree_init.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7FCA63CFDAA04DF9BEEB267B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 107A1D77B9CE4C1F8E507B27 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D432A964FB17462AB335F359 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/sift.cpp */ = {isa = PBXBuildFile; fileRef = 01547868C59D45089BFE6F1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/sift.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+86031DABF07C439992527C40 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/surf.cpp */ = {isa = PBXBuildFile; fileRef = 60B394325F11449D9E8A75C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/surf.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BC7764AA13B146F1AAABA887 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = AB124D7B4CA048B09DA4A481 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+39CF8501DA764D1FA1BFE494 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 89D38ED365CF4330A1EFBB0F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              72AE1C8B0452425BADB5AD3E /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              CDD6A81DBEB84766AB7025D7 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              6BD389B67A9742D8AF57F276 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              3E3D24CDB8E8474794890BDF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E77ACE7E0BB34D8D971258CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5B590426F24943C4B02233EA;
+                     remoteInfo = ZERO_CHECK;
+              };
+              51BB665B9EB845B5BB179038 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E77ACE7E0BB34D8D971258CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 24FF22E5B8A84DE1BF0EEF94;
+                     remoteInfo = opencv_nonfree;
+              };
+              F200A8B02F884CF3BCC69453 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = E77ACE7E0BB34D8D971258CE /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5D3F36209DE0419FB824455B;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+89D38ED365CF4330A1EFBB0F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C4C57EE3B8114BE7B588B36A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/features2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "features2d.hpp"; path = "include/opencv2/nonfree/features2d.hpp"; sourceTree = SOURCE_ROOT; };
+3AECC287A9FF443E88DA12A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/nonfree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "nonfree.hpp"; path = "include/opencv2/nonfree/nonfree.hpp"; sourceTree = SOURCE_ROOT; };
+0DEB6811B367430D8FB1237C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/nonfree_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "nonfree_init.cpp"; path = "src/nonfree_init.cpp"; sourceTree = SOURCE_ROOT; };
+107A1D77B9CE4C1F8E507B27 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+01547868C59D45089BFE6F1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/sift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "sift.cpp"; path = "src/sift.cpp"; sourceTree = SOURCE_ROOT; };
+60B394325F11449D9E8A75C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/surf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "surf.cpp"; path = "src/surf.cpp"; sourceTree = SOURCE_ROOT; };
+AB124D7B4CA048B09DA4A481 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+AD879F20E0994C9581F680AC /* opencv_nonfree */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_nonfree.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              38E71575FB784A21A03B81E8  = {
+                     isa = PBXGroup;
+                     children = (
+                            2D5187DD170447D980D5EEE6 /* Sources */,
+                            B43AF80FB7D744F58F6B6CF6 /* Resources */,
+                            09CC29E9411A4A818882259A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              2D5187DD170447D980D5EEE6 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C72B7128AA3C4FA6BB1774F1 /* ALL_BUILD */,
+                            BF585EE932FB42428E33BF24 /* ZERO_CHECK */,
+                            6B4E60F141F645448F2AC2D9 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              B43AF80FB7D744F58F6B6CF6 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              C72B7128AA3C4FA6BB1774F1 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8FB7D146EC40432A8C5FBDC1 /* CMake Rules */,
+                            89D38ED365CF4330A1EFBB0F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              8FB7D146EC40432A8C5FBDC1 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              BF585EE932FB42428E33BF24 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A9E690B5CA4D47A9881665E5 /* CMake Rules */,
+                            89D38ED365CF4330A1EFBB0F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              A9E690B5CA4D47A9881665E5 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              6B4E60F141F645448F2AC2D9 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            69BFDA9443BC48319146CE0D /* opencv_nonfree */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              69BFDA9443BC48319146CE0D /* opencv_nonfree */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4F084121BA6B47B691FE7CC9 /* Include */,
+                            73BE14A5EA7F4CB09CE0F49A /* Src */,
+                            89D38ED365CF4330A1EFBB0F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/CMakeLists.txt */,
+                     );
+                     name = opencv_nonfree;
+                     sourceTree = "<group>";
+              };
+              4F084121BA6B47B691FE7CC9 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C4C57EE3B8114BE7B588B36A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/features2d.hpp */,
+                            3AECC287A9FF443E88DA12A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include/opencv2/nonfree/nonfree.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              73BE14A5EA7F4CB09CE0F49A /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0DEB6811B367430D8FB1237C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/nonfree_init.cpp */,
+                            107A1D77B9CE4C1F8E507B27 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.cpp */,
+                            01547868C59D45089BFE6F1E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/sift.cpp */,
+                            60B394325F11449D9E8A75C2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/surf.cpp */,
+                            AB124D7B4CA048B09DA4A481 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              09CC29E9411A4A818882259A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AD879F20E0994C9581F680AC /* opencv_nonfree */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              24FF22E5B8A84DE1BF0EEF94 /* opencv_nonfree */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = A271F070A7634EEDA2DC9625 /* Build configuration list for PBXNativeTarget "opencv_nonfree" */;
+                     buildPhases = (
+                            6A56F39C2193487D9D65FD4F /* Sources */,
+                            31E0A8EDE706490FAB293B93 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F1F08D438A324593930F17C1 /* PBXTargetDependency */,
+                     );
+                     name = opencv_nonfree;
+                     productName = opencv_nonfree;
+                     productReference = AD879F20E0994C9581F680AC /* opencv_nonfree */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              E77ACE7E0BB34D8D971258CE /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = BB1D0B3C9B1B4A03A514D1FF /* Build configuration list for PBXProject  "opencv_nonfree" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            CDD6A81DBEB84766AB7025D7 /* Debug */,
+                            6BD389B67A9742D8AF57F276 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 38E71575FB784A21A03B81E8;
+                     projectDirPath = "../../../../../../modules/nonfree";
+                     projectRoot = "";
+                     targets = (
+                            5D3F36209DE0419FB824455B /* ALL_BUILD */,
+                            5B590426F24943C4B02233EA /* ZERO_CHECK */,
+                            CB7653811A5E48F18DE74E68 /* install */,
+                            24FF22E5B8A84DE1BF0EEF94 /* opencv_nonfree */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              0734AF365BEC49448B1B5A9E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8CFF03637DC942D88F99C5BC /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A1D9732E45FA48358A6A3BBE /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              40441C13056D4273B1FC2AEB /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AD487E3BF24E4BE4A13ABF18 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7F26B3AB4298428A8D79C976 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              31E0A8EDE706490FAB293B93 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/opencv_nonfree_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              6A56F39C2193487D9D65FD4F /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            A9A620DD0EFC41C49E22C6A2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/nonfree_init.cpp */,
+                            7FCA63CFDAA04DF9BEEB267B /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/precomp.cpp */,
+                            D432A964FB17462AB335F359 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/sift.cpp */,
+                            86031DABF07C439992527C40 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src/surf.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F1F08D438A324593930F17C1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5B590426F24943C4B02233EA /* ZERO_CHECK */;
+                     targetProxy = 3E3D24CDB8E8474794890BDF /* PBXContainerItemProxy */;
+              };
+              7811C1017897419786FAC2A4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 24FF22E5B8A84DE1BF0EEF94 /* opencv_nonfree */;
+                     targetProxy = 51BB665B9EB845B5BB179038 /* PBXContainerItemProxy */;
+              };
+              F7CBF84721954EA4962D5D74 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5D3F36209DE0419FB824455B /* ALL_BUILD */;
+                     targetProxy = F200A8B02F884CF3BCC69453 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              F7EF7BA3836F4F68BDB1B066 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/build";
+                     };
+                     name = Debug;
+              };
+              FCE3BFB928E64F0FB9BC0B49 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree/build";
+                     };
+                     name = Release;
+              };
+              1EE5899B17C94460A2863BF5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B022D600B95A40B0B2F9CF83 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C0979A7BB0A44AEFBBF6A95B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E5A5060BFB96474A92373B35 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              CF6CA35933F94724BABEDCF4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7AD710FF7D5245E198ECFDE5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              35518213D25B486592E34665 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_nonfree;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              76F58CDCDE4A4C5894A3A092 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/features2d/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/nonfree/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG   ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden   -DNDEBUG     -fomit-frame-pointer -ffast-math   ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_nonfree;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/nonfree";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              BB1D0B3C9B1B4A03A514D1FF /* Build configuration list for PBXProject  "opencv_nonfree" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F7EF7BA3836F4F68BDB1B066 /* Debug */,
+                            FCE3BFB928E64F0FB9BC0B49 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              942361BAD50645B9B97E1608 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1EE5899B17C94460A2863BF5 /* Debug */,
+                            B022D600B95A40B0B2F9CF83 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              72C288B9047B47C38754B488 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C0979A7BB0A44AEFBBF6A95B /* Debug */,
+                            E5A5060BFB96474A92373B35 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8E75B911BF114C10895003E2 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CF6CA35933F94724BABEDCF4 /* Debug */,
+                            7AD710FF7D5245E198ECFDE5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A271F070A7634EEDA2DC9625 /* Build configuration list for PBXNativeTarget "opencv_nonfree" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            35518213D25B486592E34665 /* Debug */,
+                            76F58CDCDE4A4C5894A3A092 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = E77ACE7E0BB34D8D971258CE;
+}

@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              5D3F36209DE0419FB824455B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 5BB24F3BA48C4860B10E0736 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            7AD69FB422EF4DB78CE757BF /* CMake Rules */,
+                     );
+                     dependencies = (
+                            88DC6DCEA89E4B7C92891002 /* PBXTargetDependency */,
+                            39DC74D0BFFA4FAF89EB5B1D /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              5B590426F24943C4B02233EA /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 5365324089EC46EE9432D47D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            93ECC150921047B49B403700 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              CB7653811A5E48F18DE74E68 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 61226FF4B65842718BBAF7EB /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            4C04A72EDFA240EBBBB33A9A /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            A678819627AC4E4B872D8E7C /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+2B5B084C71FA42809C13AABD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXBuildFile; fileRef = 8EA77A4493C140D3ADCDFE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D285603DCB194F88AFE1CD54 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXBuildFile; fileRef = 53E51877876A4832BD0A9C61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann_base.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DC753E3C4CF24235B6B59BD7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXBuildFile; fileRef = 6555C3F785284FC6BEB94ED4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/miniflann.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5CDF77FFD07147589679D939 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXBuildFile; fileRef = 6C79D1ADCC9448FA8E1DD158 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/all_indices.h */; settings = { COMPILER_FLAGS = ""; }; };
+6718AE64384747AC81536554 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXBuildFile; fileRef = FA5657FEA1904395A5D5D6D7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/allocator.h */; settings = { COMPILER_FLAGS = ""; }; };
+8EE0B9A9E088487AA0A5C7E2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXBuildFile; fileRef = 647D9888C3BF4023BAFF85A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/any.h */; settings = { COMPILER_FLAGS = ""; }; };
+4FF058BFFB7344B0B05A7367 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXBuildFile; fileRef = AFF231BA55034C17B185E511 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/autotuned_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+A9AE852DDB5646F8B5FA8741 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXBuildFile; fileRef = 689CA828985A40B8B0319967 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/composite_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+F3E61517AC2940FE80B4F98E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXBuildFile; fileRef = 266E6EDC76624EE1885BE3DB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/config.h */; settings = { COMPILER_FLAGS = ""; }; };
+F39C0C0A9C7A49BAA97C838D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXBuildFile; fileRef = 494006211B994A4FA7EB42C9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/defines.h */; settings = { COMPILER_FLAGS = ""; }; };
+01EBD34ABEB34A55A7A11FA5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXBuildFile; fileRef = 73DC76C354A14865B72DC854 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dist.h */; settings = { COMPILER_FLAGS = ""; }; };
+820229BFA7914C198CDA4D06 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXBuildFile; fileRef = 1455CC97CA344758ADA2B5C7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dummy.h */; settings = { COMPILER_FLAGS = ""; }; };
+0D0BBF96ED7845F8AC30E569 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXBuildFile; fileRef = C2FB24BCF72443AB838C7396 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dynamic_bitset.h */; settings = { COMPILER_FLAGS = ""; }; };
+D3B2A154011F4811B0D517E6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXBuildFile; fileRef = 3D55A5B287794E138487289D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/general.h */; settings = { COMPILER_FLAGS = ""; }; };
+76D0AA0DC77E48CA8D79A3D5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXBuildFile; fileRef = 35169D65D3844CD3921C0294 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/ground_truth.h */; settings = { COMPILER_FLAGS = ""; }; };
+5553603C4F45429A8B6FFDC3 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXBuildFile; fileRef = 43079B8A81EA481FADD661DE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hdf5.h */; settings = { COMPILER_FLAGS = ""; }; };
+63CB18FDE4D044598E92BBC1 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXBuildFile; fileRef = 135C41A4FC944E37B44F0976 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/heap.h */; settings = { COMPILER_FLAGS = ""; }; };
+712E96196B7443A4ACCB141F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXBuildFile; fileRef = 93C64D95FB824D8A8B2DB9C5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+6205E8B559F14033A5DAF288 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXBuildFile; fileRef = 1BC825658B94402C9D5AC112 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/index_testing.h */; settings = { COMPILER_FLAGS = ""; }; };
+9AD33AE925464D0EB5110F47 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXBuildFile; fileRef = 4E93C31E465646CB9B740C7F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+B7E477BC2EF64D8F8ADEF63D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXBuildFile; fileRef = 20404A17109C4AC1A3B845B2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_single_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+A04DA8D213334B60919357B9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXBuildFile; fileRef = 4BAE37E75BEE4EDC801C2884 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kmeans_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+1A05BE8F99914763AC570C64 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXBuildFile; fileRef = 06A5E4E0904946028B78C9C6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/linear_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+45C22E315B0D4FCBB943ACF0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXBuildFile; fileRef = C1A33060AE43471591B19F35 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/logger.h */; settings = { COMPILER_FLAGS = ""; }; };
+065BA0FEAB0342A0B992AD64 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXBuildFile; fileRef = 3C3FF0073AC748C9A5FA65B0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+8B8E9ED9D38548069888C817 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXBuildFile; fileRef = 1813C4DDD31E44DBBE1A40CD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_table.h */; settings = { COMPILER_FLAGS = ""; }; };
+B273E9805D73465AB2CC1C01 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXBuildFile; fileRef = 7C0324E012AC4675A773FB4D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/matrix.h */; settings = { COMPILER_FLAGS = ""; }; };
+5F49E10329314B68A80DC04F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXBuildFile; fileRef = B9094101F67143EFB4120A61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/nn_index.h */; settings = { COMPILER_FLAGS = ""; }; };
+73FF2BEB512D4FA6B087705D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXBuildFile; fileRef = 6AFBB2BFD4F6416F9226F263 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/object_factory.h */; settings = { COMPILER_FLAGS = ""; }; };
+DA141B67AAD747BFB79995CC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXBuildFile; fileRef = 5ADA1907766047B98520912A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/params.h */; settings = { COMPILER_FLAGS = ""; }; };
+3B54CA0C8C9F4686A0D4BCAC /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXBuildFile; fileRef = FD9777E2706B4FE2A2ECAA3C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/random.h */; settings = { COMPILER_FLAGS = ""; }; };
+355EF9DB9D86405E8251B45A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXBuildFile; fileRef = E482F0A0B3724B13B511E2A8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/result_set.h */; settings = { COMPILER_FLAGS = ""; }; };
+C39DA76581D44FF0928F793E /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXBuildFile; fileRef = DED8F8E196454154B01A35A7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/sampling.h */; settings = { COMPILER_FLAGS = ""; }; };
+D1E84B4CF1154C5B8636B2D2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXBuildFile; fileRef = 594D20582D4A475C9B928B42 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/saving.h */; settings = { COMPILER_FLAGS = ""; }; };
+3EE28AEE396A48168B132A57 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXBuildFile; fileRef = 851CAE5F327C4FC5B0247334 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/simplex_downhill.h */; settings = { COMPILER_FLAGS = ""; }; };
+B1CDDE68B39941F0B7330187 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXBuildFile; fileRef = 9817E30B7E934E52B74D4FA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/timer.h */; settings = { COMPILER_FLAGS = ""; }; };
+CC443AD445094A3C919A3F1A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/flann.cpp */ = {isa = PBXBuildFile; fileRef = B1A4B914D3924E1896DCB987 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/flann.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+94EA1D33BB0248F1AD7DB723 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/miniflann.cpp */ = {isa = PBXBuildFile; fileRef = D1FEF66AA4D5461F9F4E9D49 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/miniflann.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+166B288ED9ED40CC84A7BD62 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 9BE4560E41FE4DE0835D67A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A82334F5DD6A4F48997A36E6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = BA3B58E6AB7941C5BCE7F893 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3C83A045E97C4C2485B3D081 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE665CD649634E2E8AB4F526 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              14748DC694E645958DF1273D /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              F06E70CF0CC64F959608CDDC /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              66519E3B11C746D884AE6471 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              287DC04FC17848AF94323C2B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2E29E626EAEC44328B0B5034 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5B590426F24943C4B02233EA;
+                     remoteInfo = ZERO_CHECK;
+              };
+              DC941F48D3DF457D9806A4F0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2E29E626EAEC44328B0B5034 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3CAB59ADE5847AFB7E29A53;
+                     remoteInfo = opencv_flann;
+              };
+              951EA17037B243998A40CC86 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 2E29E626EAEC44328B0B5034 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5D3F36209DE0419FB824455B;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+CE665CD649634E2E8AB4F526 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8EA77A4493C140D3ADCDFE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "flann.hpp"; path = "include/opencv2/flann/flann.hpp"; sourceTree = SOURCE_ROOT; };
+53E51877876A4832BD0A9C61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "flann_base.hpp"; path = "include/opencv2/flann/flann_base.hpp"; sourceTree = SOURCE_ROOT; };
+6555C3F785284FC6BEB94ED4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "miniflann.hpp"; path = "include/opencv2/flann/miniflann.hpp"; sourceTree = SOURCE_ROOT; };
+6C79D1ADCC9448FA8E1DD158 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "all_indices.h"; path = "include/opencv2/flann/all_indices.h"; sourceTree = SOURCE_ROOT; };
+FA5657FEA1904395A5D5D6D7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "allocator.h"; path = "include/opencv2/flann/allocator.h"; sourceTree = SOURCE_ROOT; };
+647D9888C3BF4023BAFF85A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "any.h"; path = "include/opencv2/flann/any.h"; sourceTree = SOURCE_ROOT; };
+AFF231BA55034C17B185E511 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "autotuned_index.h"; path = "include/opencv2/flann/autotuned_index.h"; sourceTree = SOURCE_ROOT; };
+689CA828985A40B8B0319967 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "composite_index.h"; path = "include/opencv2/flann/composite_index.h"; sourceTree = SOURCE_ROOT; };
+266E6EDC76624EE1885BE3DB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "config.h"; path = "include/opencv2/flann/config.h"; sourceTree = SOURCE_ROOT; };
+494006211B994A4FA7EB42C9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "defines.h"; path = "include/opencv2/flann/defines.h"; sourceTree = SOURCE_ROOT; };
+73DC76C354A14865B72DC854 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "dist.h"; path = "include/opencv2/flann/dist.h"; sourceTree = SOURCE_ROOT; };
+1455CC97CA344758ADA2B5C7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "dummy.h"; path = "include/opencv2/flann/dummy.h"; sourceTree = SOURCE_ROOT; };
+C2FB24BCF72443AB838C7396 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "dynamic_bitset.h"; path = "include/opencv2/flann/dynamic_bitset.h"; sourceTree = SOURCE_ROOT; };
+3D55A5B287794E138487289D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "general.h"; path = "include/opencv2/flann/general.h"; sourceTree = SOURCE_ROOT; };
+35169D65D3844CD3921C0294 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "ground_truth.h"; path = "include/opencv2/flann/ground_truth.h"; sourceTree = SOURCE_ROOT; };
+43079B8A81EA481FADD661DE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "hdf5.h"; path = "include/opencv2/flann/hdf5.h"; sourceTree = SOURCE_ROOT; };
+135C41A4FC944E37B44F0976 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "heap.h"; path = "include/opencv2/flann/heap.h"; sourceTree = SOURCE_ROOT; };
+93C64D95FB824D8A8B2DB9C5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "hierarchical_clustering_index.h"; path = "include/opencv2/flann/hierarchical_clustering_index.h"; sourceTree = SOURCE_ROOT; };
+1BC825658B94402C9D5AC112 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "index_testing.h"; path = "include/opencv2/flann/index_testing.h"; sourceTree = SOURCE_ROOT; };
+4E93C31E465646CB9B740C7F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "kdtree_index.h"; path = "include/opencv2/flann/kdtree_index.h"; sourceTree = SOURCE_ROOT; };
+20404A17109C4AC1A3B845B2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "kdtree_single_index.h"; path = "include/opencv2/flann/kdtree_single_index.h"; sourceTree = SOURCE_ROOT; };
+4BAE37E75BEE4EDC801C2884 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "kmeans_index.h"; path = "include/opencv2/flann/kmeans_index.h"; sourceTree = SOURCE_ROOT; };
+06A5E4E0904946028B78C9C6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "linear_index.h"; path = "include/opencv2/flann/linear_index.h"; sourceTree = SOURCE_ROOT; };
+C1A33060AE43471591B19F35 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "logger.h"; path = "include/opencv2/flann/logger.h"; sourceTree = SOURCE_ROOT; };
+3C3FF0073AC748C9A5FA65B0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "lsh_index.h"; path = "include/opencv2/flann/lsh_index.h"; sourceTree = SOURCE_ROOT; };
+1813C4DDD31E44DBBE1A40CD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "lsh_table.h"; path = "include/opencv2/flann/lsh_table.h"; sourceTree = SOURCE_ROOT; };
+7C0324E012AC4675A773FB4D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "matrix.h"; path = "include/opencv2/flann/matrix.h"; sourceTree = SOURCE_ROOT; };
+B9094101F67143EFB4120A61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "nn_index.h"; path = "include/opencv2/flann/nn_index.h"; sourceTree = SOURCE_ROOT; };
+6AFBB2BFD4F6416F9226F263 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "object_factory.h"; path = "include/opencv2/flann/object_factory.h"; sourceTree = SOURCE_ROOT; };
+5ADA1907766047B98520912A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "params.h"; path = "include/opencv2/flann/params.h"; sourceTree = SOURCE_ROOT; };
+FD9777E2706B4FE2A2ECAA3C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "random.h"; path = "include/opencv2/flann/random.h"; sourceTree = SOURCE_ROOT; };
+E482F0A0B3724B13B511E2A8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "result_set.h"; path = "include/opencv2/flann/result_set.h"; sourceTree = SOURCE_ROOT; };
+DED8F8E196454154B01A35A7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "sampling.h"; path = "include/opencv2/flann/sampling.h"; sourceTree = SOURCE_ROOT; };
+594D20582D4A475C9B928B42 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "saving.h"; path = "include/opencv2/flann/saving.h"; sourceTree = SOURCE_ROOT; };
+851CAE5F327C4FC5B0247334 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "simplex_downhill.h"; path = "include/opencv2/flann/simplex_downhill.h"; sourceTree = SOURCE_ROOT; };
+9817E30B7E934E52B74D4FA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "timer.h"; path = "include/opencv2/flann/timer.h"; sourceTree = SOURCE_ROOT; };
+B1A4B914D3924E1896DCB987 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "flann.cpp"; path = "src/flann.cpp"; sourceTree = SOURCE_ROOT; };
+D1FEF66AA4D5461F9F4E9D49 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/miniflann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "miniflann.cpp"; path = "src/miniflann.cpp"; sourceTree = SOURCE_ROOT; };
+9BE4560E41FE4DE0835D67A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+BA3B58E6AB7941C5BCE7F893 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+2C266AEA037D4DD89EF9699C /* opencv_flann */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_flann.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              6A1B2B59CA5748B8AD0AA963  = {
+                     isa = PBXGroup;
+                     children = (
+                            8EA37EA9AA494F9BB92C9D66 /* Sources */,
+                            F8D1425E673748149245951F /* Resources */,
+                            C448E33A17E742C29798E39A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              8EA37EA9AA494F9BB92C9D66 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            14C7B5D7A9684A62A41879A5 /* ALL_BUILD */,
+                            CA0A9333F64140F1AB76F101 /* ZERO_CHECK */,
+                            C0884E9D741548518B7F7F47 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              F8D1425E673748149245951F /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              14C7B5D7A9684A62A41879A5 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            42F2F4468D7345379527CE62 /* CMake Rules */,
+                            CE665CD649634E2E8AB4F526 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              42F2F4468D7345379527CE62 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              CA0A9333F64140F1AB76F101 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2EF4B31F7F274E1795A2C2D6 /* CMake Rules */,
+                            CE665CD649634E2E8AB4F526 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              2EF4B31F7F274E1795A2C2D6 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C0884E9D741548518B7F7F47 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AA2B2D8E52954B7EB5F8C4CF /* opencv_flann */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              AA2B2D8E52954B7EB5F8C4CF /* opencv_flann */ = {
+                     isa = PBXGroup;
+                     children = (
+                            13EBBE2349D647D5989759DD /* Include */,
+                            86639EB6A7044B189BA4EC4A /* Src */,
+                            CE665CD649634E2E8AB4F526 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/CMakeLists.txt */,
+                     );
+                     name = opencv_flann;
+                     sourceTree = "<group>";
+              };
+              13EBBE2349D647D5989759DD /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8EA77A4493C140D3ADCDFE9A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann.hpp */,
+                            53E51877876A4832BD0A9C61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/flann_base.hpp */,
+                            6555C3F785284FC6BEB94ED4 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/miniflann.hpp */,
+                            6C79D1ADCC9448FA8E1DD158 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/all_indices.h */,
+                            FA5657FEA1904395A5D5D6D7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/allocator.h */,
+                            647D9888C3BF4023BAFF85A5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/any.h */,
+                            AFF231BA55034C17B185E511 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/autotuned_index.h */,
+                            689CA828985A40B8B0319967 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/composite_index.h */,
+                            266E6EDC76624EE1885BE3DB /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/config.h */,
+                            494006211B994A4FA7EB42C9 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/defines.h */,
+                            73DC76C354A14865B72DC854 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dist.h */,
+                            1455CC97CA344758ADA2B5C7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dummy.h */,
+                            C2FB24BCF72443AB838C7396 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/dynamic_bitset.h */,
+                            3D55A5B287794E138487289D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/general.h */,
+                            35169D65D3844CD3921C0294 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/ground_truth.h */,
+                            43079B8A81EA481FADD661DE /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hdf5.h */,
+                            135C41A4FC944E37B44F0976 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/heap.h */,
+                            93C64D95FB824D8A8B2DB9C5 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */,
+                            1BC825658B94402C9D5AC112 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/index_testing.h */,
+                            4E93C31E465646CB9B740C7F /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_index.h */,
+                            20404A17109C4AC1A3B845B2 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kdtree_single_index.h */,
+                            4BAE37E75BEE4EDC801C2884 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/kmeans_index.h */,
+                            06A5E4E0904946028B78C9C6 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/linear_index.h */,
+                            C1A33060AE43471591B19F35 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/logger.h */,
+                            3C3FF0073AC748C9A5FA65B0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_index.h */,
+                            1813C4DDD31E44DBBE1A40CD /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/lsh_table.h */,
+                            7C0324E012AC4675A773FB4D /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/matrix.h */,
+                            B9094101F67143EFB4120A61 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/nn_index.h */,
+                            6AFBB2BFD4F6416F9226F263 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/object_factory.h */,
+                            5ADA1907766047B98520912A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/params.h */,
+                            FD9777E2706B4FE2A2ECAA3C /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/random.h */,
+                            E482F0A0B3724B13B511E2A8 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/result_set.h */,
+                            DED8F8E196454154B01A35A7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/sampling.h */,
+                            594D20582D4A475C9B928B42 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/saving.h */,
+                            851CAE5F327C4FC5B0247334 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/simplex_downhill.h */,
+                            9817E30B7E934E52B74D4FA7 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include/opencv2/flann/timer.h */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              86639EB6A7044B189BA4EC4A /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B1A4B914D3924E1896DCB987 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/flann.cpp */,
+                            D1FEF66AA4D5461F9F4E9D49 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/miniflann.cpp */,
+                            9BE4560E41FE4DE0835D67A0 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.cpp */,
+                            BA3B58E6AB7941C5BCE7F893 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              C448E33A17E742C29798E39A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2C266AEA037D4DD89EF9699C /* opencv_flann */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              D3CAB59ADE5847AFB7E29A53 /* opencv_flann */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = F1EC907ADCB14D9B8904C03D /* Build configuration list for PBXNativeTarget "opencv_flann" */;
+                     buildPhases = (
+                            84F45E9B424C45C580360A49 /* Sources */,
+                            8D2DD06C4FDF44E4B0F3100C /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            88DC6DCEA89E4B7C92891002 /* PBXTargetDependency */,
+                     );
+                     name = opencv_flann;
+                     productName = opencv_flann;
+                     productReference = 2C266AEA037D4DD89EF9699C /* opencv_flann */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              2E29E626EAEC44328B0B5034 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = CA4ABD8A128241799D120C36 /* Build configuration list for PBXProject  "opencv_flann" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            F06E70CF0CC64F959608CDDC /* Debug */,
+                            66519E3B11C746D884AE6471 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 6A1B2B59CA5748B8AD0AA963;
+                     projectDirPath = "../../../../../../modules/flann";
+                     projectRoot = "";
+                     targets = (
+                            5D3F36209DE0419FB824455B /* ALL_BUILD */,
+                            5B590426F24943C4B02233EA /* ZERO_CHECK */,
+                            CB7653811A5E48F18DE74E68 /* install */,
+                            D3CAB59ADE5847AFB7E29A53 /* opencv_flann */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              16ABEBAB05AB4992B5351D68 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7AD69FB422EF4DB78CE757BF /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C7ECEF46321345128FC42ACF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              93ECC150921047B49B403700 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              B19EA70D0733477290BBBDFA /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              4C04A72EDFA240EBBBB33A9A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8D2DD06C4FDF44E4B0F3100C /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/CMakeScripts/opencv_flann_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              84F45E9B424C45C580360A49 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            CC443AD445094A3C919A3F1A /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/flann.cpp */,
+                            94EA1D33BB0248F1AD7DB723 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/miniflann.cpp */,
+                            166B288ED9ED40CC84A7BD62 /* /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src/precomp.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              88DC6DCEA89E4B7C92891002 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5B590426F24943C4B02233EA /* ZERO_CHECK */;
+                     targetProxy = 287DC04FC17848AF94323C2B /* PBXContainerItemProxy */;
+              };
+              39DC74D0BFFA4FAF89EB5B1D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3CAB59ADE5847AFB7E29A53 /* opencv_flann */;
+                     targetProxy = DC941F48D3DF457D9806A4F0 /* PBXContainerItemProxy */;
+              };
+              A678819627AC4E4B872D8E7C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5D3F36209DE0419FB824455B /* ALL_BUILD */;
+                     targetProxy = 951EA17037B243998A40CC86 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              8DD2FBFE6314463A8F9048A5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/build";
+                     };
+                     name = Debug;
+              };
+              DE2BCB63FE404DF7BE229602 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann/build";
+                     };
+                     name = Release;
+              };
+              3EA9D98199D9425197FD859F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              25E4D4123A294DE7A599D07A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0BDA397891D94C2180FBBD19 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6D92951D52F64CB59D31F7FD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              19214A5E980543DA94D16664 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CCC0DA578FFE4D8CBC392791 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F6B2CB5D3A444217BCC56C14 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "        ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden        ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_flann;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1BDACA22018C49E5AF6E2668 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann", /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/src, /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/flann/include, "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "       -DNDEBUG   ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden   -DNDEBUG     -fomit-frame-pointer -ffast-math   ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_flann;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/flann";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              CA4ABD8A128241799D120C36 /* Build configuration list for PBXProject  "opencv_flann" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8DD2FBFE6314463A8F9048A5 /* Debug */,
+                            DE2BCB63FE404DF7BE229602 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5BB24F3BA48C4860B10E0736 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3EA9D98199D9425197FD859F /* Debug */,
+                            25E4D4123A294DE7A599D07A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5365324089EC46EE9432D47D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0BDA397891D94C2180FBBD19 /* Debug */,
+                            6D92951D52F64CB59D31F7FD /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              61226FF4B65842718BBAF7EB /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            19214A5E980543DA94D16664 /* Debug */,
+                            CCC0DA578FFE4D8CBC392791 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F1EC907ADCB14D9B8904C03D /* Build configuration list for PBXNativeTarget "opencv_flann" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F6B2CB5D3A444217BCC56C14 /* Debug */,
+                            1BDACA22018C49E5AF6E2668 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 2E29E626EAEC44328B0B5034;
+}

@@ -1,0 +1,666 @@
+Topencv_objdetect
+v5
+r1
+cCheck dependencies
+cSymLink /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh
+cStrip /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cSetOwnerAndGroup r2034kimo:staff /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cSetMode u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c0000000050933DC10000000000000110
+t1351826881
+s272
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/cvconfig.h
+c0000000050F45B0D0000000000001476
+t1358191373
+s5238
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a
+t1358191415
+s599368
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o
+t1358191410
+s116836
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o
+t1358191409
+s31188
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o
+t1358191409
+s4596
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o
+t1358191410
+s8808
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o
+t1358191411
+s3476
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o
+t1358191412
+s79528
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o
+t1358191412
+s110128
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o
+t1358191411
+s8100
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o
+t1358191412
+s13876
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o
+t1358191415
+s155320
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o
+t1358191413
+s10664
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o
+t1358191413
+s152
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o
+t1358191414
+s15652
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o
+t1358191414
+s152
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/opencv_objdetect.LinkFileList
+c0000000050F45B2F0000000000000E65
+t1358191407
+s3685
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o
+t1358191415
+s152
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o
+t1358191415
+s884
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o
+t1358191415
+s1908
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh
+c0000000050F45B2F0000000000000151
+t1358191407
+s337
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+t2
+s0
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/opencv2/opencv_modules.hpp
+c0000000050F45B0D0000000000000256
+t1358191373
+s598
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/core.hpp
+c000000005089C351000000000002CBF3
+t1351205713
+s183283
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/core_c.h
+c00000000501079620000000000013298
+t1343256930
+s78488
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/internal.hpp
+c000000005092FDCF0000000000008657
+t1351810511
+s34391
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/mat.hpp
+c00000000503D4C4A0000000000013923
+t1346194506
+s80163
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/operations.hpp
+c000000005093E0E7000000000001F6AA
+t1351868647
+s128682
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/types_c.h
+c0000000050107962000000000000E0BE
+t1343256930
+s57534
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/version.hpp
+c000000005093E0E700000000000009EA
+t1351868647
+s2538
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include/opencv2/highgui/highgui.hpp
+c00000000507F376A00000000000023B4
+t1350514538
+s9140
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include/opencv2/highgui/highgui_c.h
+c00000000507F376A00000000000065A3
+t1350514538
+s26019
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000005081DA4F000000000000D6EA
+t1350687311
+s55018
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c00000000507F376A000000000000767F
+t1350514538
+s30335
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000005081DA4F0000000000003EB4
+t1350687311
+s16052
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000005081DA4F00000000000091B7
+t1350687311
+s37303
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_latentsvm.h
+c00000000507F376A00000000000038D5
+t1350514538
+s14549
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_distancetransform.h
+c00000000507F376A0000000000001269
+t1350514538
+s4713
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_error.h
+c00000000501079630000000000000266
+t1343256931
+s614
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_fft.h
+c00000000507F376A0000000000000952
+t1350514538
+s2386
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_matching.h
+c00000000507F376A00000000000043FA
+t1350514538
+s17402
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_resizeimg.h
+c00000000501079630000000000000122
+t1343256931
+s290
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_routine.h
+c00000000507F376A0000000000000494
+t1350514538
+s1172
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvm_types.h
+c00000000507F376A00000000000008B6
+t1350514538
+s2230
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/_lsvmparser.h
+c00000000507F376A000000000000067B
+t1350514538
+s1659
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp
+c000000005062364C000000000000A2FD
+t1348613708
+s41725
+i"precomp.hpp"
+i<cstdio>
+i"cascadedetect.hpp"
+i<string>
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.hpp
+c00000000503D4C4A000000000000407F
+t1346194506
+s16511
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp
+c00000000501079630000000000004521
+t1343256931
+s17697
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp
+c00000000507F376A0000000000002B02
+t1350514538
+s11010
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp
+c000000005085CECF0000000000003F38
+t1350946511
+s16184
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp
+c00000000507F376A0000000000001D73
+t1350514538
+s7539
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp
+c000000005091AC51000000000001A945
+t1351724113
+s108869
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp
+c00000000507F376A00000000000204FC
+t1350514538
+s132348
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp
+c00000000507F376A0000000000005963
+t1350514538
+s22883
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp
+c00000000507F376A0000000000002115
+t1350514538
+s8469
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp
+c0000000050453549000000000000EE3B
+t1346712905
+s60987
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp
+c00000000507F376A00000000000057A4
+t1350514538
+s22436
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp
+c00000000507F376A0000000000001223
+t1350514538
+s4643
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp
+c00000000507F376A000000000000F0E0
+t1350514538
+s61664
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/normal_lut.i
+c000000005010796300000000000076DD
+t1343256931
+s30429
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp
+c00000000501079630000000000000883
+t1343256931
+s2179
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp
+c00000000501079630000000000000852
+t1343256931
+s2130
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.hpp
+c00000000501079630000000000000A6D
+t1343256931
+s2669
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp
+c00000000507F376A0000000000001720
+t1350514538
+s5920
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp
+c00000000507F376A0000000000000D60
+t1350514538
+s3424
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbc7ad5eb92a4b641^5c3de3eb92a4b641^---0#1#0#--18"Check dependencies36"45B1294D-DAA1-4907-B396-50F6DD596D8A-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884207.250169
+e379884210.451304
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cppf62440af92a4b641^bb9773b292a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp0000000000000000^4092"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o modules/objdetect/src/cascadedetect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/cascadedetect.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/cascadedetect.o36"BDB367BA-9AF0-4DA3-A2F3-337391BD5962-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884207.250265
+e379884209.041174
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cppb93640af92a4b641^65890ab192a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp0000000000000000^4074"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o modules/objdetect/src/datamatrix.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/datamatrix.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/datamatrix.o36"FE81CE39-A863-46A4-823C-4C689E7E7892-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884208.587595
+e379884209.756463
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp838a96b092a4b641^e7a6c1b192a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp0000000000000000^4116"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o modules/objdetect/src/distancetransform.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/distancetransform.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/distancetransform.o36"F84B7BBB-95C3-4B19-88DE-615096631A14-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884209.043231
+e379884210.379626
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp4c540bb192a4b641^aa2d61b292a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp0000000000000000^4098"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o modules/objdetect/src/featurepyramid.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/featurepyramid.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/featurepyramid.o36"18019D1A-9446-424A-AD42-B89F1B6121BB-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884209.758989
+e379884211.077456
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp137dc2b192a4b641^20d213b392a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp0000000000000000^4032"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o modules/objdetect/src/fft.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/fft.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/fft.o36"4F888E40-B623-4FA2-A04C-7397F97CCCE4-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884210.040158
+e379884212.438757
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cppc4770ab292a4b641^386770b492a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp0000000000000000^4038"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o modules/objdetect/src/haar.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/haar.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/haar.o36"D92AF301-703B-4090-A5C4-30702FE737BB-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884210.449855
+e379884213.012393
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp0c5b73b292a4b641^0e2c03b592a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp0000000000000000^4032"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o modules/objdetect/src/hog.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/hog.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/hog.o36"6F02A439-E58A-42C7-B835-558FFEBC77B3-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884210.517868
+e379884211.833680
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cppbc0685b292a4b641^336bd5b392a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp0000000000000000^4068"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o modules/objdetect/src/latentsvm.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvm.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvm.o36"02621B5A-F7AB-4468-97AA-63335897AF4B-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884211.080798
+e379884212.648423
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cppa5d914b392a4b641^88f6a5b492a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp0000000000000000^4116"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o modules/objdetect/src/latentsvmdetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/latentsvmdetector.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/latentsvmdetector.o36"03380440-484C-4FA5-BF35-2EBC5080DDB6-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884211.835021
+e379884215.332184
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp94fbd5b392a4b641^350a55b792a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp0000000000000000^4056"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o modules/objdetect/src/linemod.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/linemod.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/linemod.o36"6D5671B1-AAB5-4D13-A937-F59CC00CA272-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884211.972585
+e379884213.370818
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cppb327f9b392a4b641^67ed5eb592a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp0000000000000000^4074"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o modules/objdetect/src/lsvmparser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmparser.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmparser.o36"99752676-EC39-4CD7-99F6-30CA11473323-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884212.651446
+e379884213.964051
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cppf5f7a6b492a4b641^0adcf6b592a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp0000000000000000^4098"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o modules/objdetect/src/lsvmtbbversion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/lsvmtbbversion.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o36"D53ABB19-B841-40F7-8F2F-EA24AEDE17E1-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884213.013948
+e379884214.445456
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp3eea03b592a4b641^960a72b692a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp0000000000000000^4062"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o modules/objdetect/src/matching.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/matching.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/matching.o36"38C5E580-3311-474F-9AE4-8E833BB14DCC-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884213.430423
+e379884214.667144
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cppb75f6eb592a4b641^0ad8aab692a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp0000000000000000^4098"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o modules/objdetect/src/objdetect_init.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/objdetect_init.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o36"99895A47-3B74-463C-93DA-33F93C588632-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884213.965382
+e379884215.167283
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp5281f7b592a4b641^bbd22ab792a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp0000000000000000^4056"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o modules/objdetect/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/precomp.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o36"45A31384-23C9-4922-A2B0-FCD4A8D10AD0-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884214.509521
+e379884215.599308
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp3d9e82b692a4b641^376e99b792a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp0000000000000000^4068"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o modules/objdetect/src/resizeimg.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/resizeimg.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/resizeimg.o36"CA793FC5-8289-4EBD-B294-C21D697C4D92-
+
+CCompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379884214.668488
+e379884215.621306
+r1
+xCompileC
+xios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp624babb692a4b641^490f9fb792a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp0000000000000000^4056"CompileC ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o modules/objdetect/src/routine.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/highgui/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources/i386 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/objdetect/src/routine.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/routine.o36"F60DD4D2-B2FF-4663-AF00-97CDFBBC2139-
+
+CLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a normal i386
+s379884215.628026
+e379884215.749811
+r1
+xLibtool
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Libtool ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a normal i3863cdaa0b792a4b641^7ff6bfb792a4b641^-1007"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o has no symbols-0#0#0#--1293"Libtool ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a normal i386    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -filelist /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/opencv_objdetect.LinkFileList -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a36"032DE05C-13E9-4C3B-B516-09BDFFE2C6F7-
+
+CLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal i386
+s379884267.916077
+e379884267.951405
+r1
+xLibtool
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Libtool ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal i3867b9feaeb92a4b641^af96f3eb92a4b641^-1007"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/lsvmtbbversion.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/objdetect_init.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/precomp.o has no symbols-0#0#0#--1345"Libtool ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal i386    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release -filelist /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Objects-normal/i386/opencv_objdetect.LinkFileList -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"046BEB12-C857-4D76-96BD-383070CC5113-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh
+s379884267.959999
+e379884268.018712
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'cd3ff6eb92a4b641^2eca04ec92a4b641^-1116"echo "Depend check for xcode"Depend check for xcodecd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Releasemake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Releasemake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-379884267#0#30#-0#-----2@23"Depend check for xcode-379884267#30#23#-0#-----2@408"cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release-379884267#53#408#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.-379884267#461#70#-0#-----2@30"echo "Depend check for xcode"-379884267#531#30#-0#-----2@23"Depend check for xcode-379884267#561#23#-0#-----2@462"cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release-379884268#584#462#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.-379884268#1046#70#-0#-----0#0#0#--505"PhaseScriptExecution "CMake PostBuild Rules" ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    /bin/sh -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/OpenCV.build/Release-iphonesimulator/opencv_objdetect.build/Script-6A1B6079CD534C8995601778.sh36"9CCCD019-F220-4221-94EF-6629326F66F9-
+
+CSetMode u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s379884268.083750
+e379884268.089235
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"SetMode u+w,go-w,a+rX ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a878a15ec92a4b641^5ed816ec92a4b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^720"SetMode u+w,go-w,a+rX ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"B74D5B1A-4D3E-4EE4-ADA3-A40B71509F7C-
+
+CSetOwnerAndGroup r2034kimo:staff /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s379884268.068163
+e379884268.075565
+r1
+xSetOwnerAndGroup
+xr2034kimo:staff
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"SetOwnerAndGroup r2034kimo:staff ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a3b8c11ec92a4b641^f35813ec92a4b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^742"SetOwnerAndGroup "r2034kimo:staff" ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "r2034kimo:staff" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"63CD0FDD-AE34-4A38-87EC-76FD02DD96C3-
+
+CStrip /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s379884268.026969
+e379884268.060496
+r1
+xStrip
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(lsvmtbbversion.o)
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(objdetect_init.o)
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(precomp.o)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Strip ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.afcfd06ec92a4b641^6b7f0fec92a4b641^-911"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(lsvmtbbversion.o)/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(objdetect_init.o)/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^771"Strip ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"739EBCAE-6D1A-42C0-A894-991CCB1D4FFD-
+
+CSymLink /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s379884267.892362
+e379884267.898639
+r1
+xSymLink
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Process /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a3f8ce4eb92a4b641^520ee6eb92a4b641^---0#0#0#--898"SymLink ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/modules/objdetect/UninstalledProducts/libopencv_objdetect.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/lib/Release/libopencv_objdetect.a36"BC419B3B-8B35-4B67-8C54-F0168998164C-
+

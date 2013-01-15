@@ -1,0 +1,469 @@
+Topencv_video
+v5
+r1
+cCheck dependencies
+cSymLink /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh
+cStripping /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+cSetOwnerAndGroup r2034kimo:staff /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+cSetMode u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c0000000050933D700000000000000132
+t1351826800
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/4.1/include/float.h
+c00000000505A72F70000000000000F1E
+t1348104951
+s3870
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/cvconfig.h
+c0000000050F45A010000000000001476
+t1358191105
+s5238
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a
+t1358191146
+s238952
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o
+t1358191144
+s13148
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o
+t1358191144
+s14004
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o
+t1358191145
+s21064
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o
+t1358191144
+s6900
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o
+t1358191145
+s19224
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o
+t1358191146
+s62312
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o
+t1358191145
+s24128
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/opencv_video.LinkFileList
+c0000000050F45A27000000000000086E
+t1358191143
+s2158
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o
+t1358191146
+s22304
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o
+t1358191145
+s424
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o
+t1358191146
+s36088
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o
+t1358191146
+s12924
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh
+c0000000050F45A270000000000000139
+t1358191143
+s313
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+t2
+s0
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/core.hpp
+c000000005089C351000000000002CBF3
+t1351205713
+s183283
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/core_c.h
+c00000000501079620000000000013298
+t1343256930
+s78488
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/internal.hpp
+c000000005092FDCF0000000000008657
+t1351810511
+s34391
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/mat.hpp
+c00000000503D4C4A0000000000013923
+t1346194506
+s80163
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/operations.hpp
+c000000005093E0E7000000000001F6AA
+t1351868647
+s128682
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/types_c.h
+c0000000050107962000000000000E0BE
+t1343256930
+s57534
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include/opencv2/core/version.hpp
+c000000005093E0E700000000000009EA
+t1351868647
+s2538
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000005081DA4F000000000000D6EA
+t1350687311
+s55018
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c00000000507F376A000000000000767F
+t1350514538
+s30335
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000005081DA4F0000000000003EB4
+t1350687311
+s16052
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include/opencv2/video/background_segm.hpp
+c00000000502985CB0000000000002A72
+t1344898507
+s10866
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include/opencv2/video/tracking.hpp
+c00000000507F376A00000000000045D7
+t1350514538
+s17879
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include/opencv2/video/video.hpp
+c00000000501079630000000000000970
+t1343256931
+s2416
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp
+c00000000507F376A0000000000003A56
+t1350514538
+s14934
+i"precomp.hpp"
+i<float.h>
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp
+c00000000507F376A0000000000005B6A
+t1350514538
+s23402
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp
+c0000000050774E500000000000002E61
+t1349996112
+s11873
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp
+c00000000502985CB0000000000002912
+t1344898507
+s10514
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp
+c00000000507F376A00000000000025C3
+t1350514538
+s9667
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp
+c0000000050107963000000000001071D
+t1343256931
+s67357
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.hpp
+c000000005011CACA000000000000039C
+t1343343306
+s924
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp
+c00000000507F376A00000000000043CD
+t1350514538
+s17357
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp
+c000000005010796300000000000055A2
+t1343256931
+s21922
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp
+c00000000501079630000000000000852
+t1343256931
+s2130
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.hpp
+c000000005010796300000000000009E4
+t1343256931
+s2532
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp
+c00000000507F376A00000000000065A0
+t1350514538
+s26016
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.hpp
+c00000000504140D30000000000000C9F
+t1346453715
+s3231
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp
+c0000000050243FCA000000000000147E
+t1344552906
+s5246
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies794045e791a4b641^596a45e791a4b641^---0#1#0#--18"Check dependencies36"F71638DA-8D48-4CDF-A2DE-BEAA782B01BE-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883943.209668
+e379883944.365282
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp55df35a791a4b641^f1815da891a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp0000000000000000^3773"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o modules/video/src/bgfg_gaussmix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix.o36"81FBD178-34B5-481E-8CAD-D40E55E70715-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883943.209675
+e379883944.320833
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp5de135a791a4b641^3e2252a891a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp0000000000000000^3779"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o modules/video/src/bgfg_gaussmix2.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gaussmix2.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gaussmix2.o36"13CA54F1-41ED-4C0E-BD28-11EBCE823FD8-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883943.964280
+e379883945.102746
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cppbc04f7a791a4b641^0a4d1aa991a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp0000000000000000^3743"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o modules/video/src/bgfg_gmg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/bgfg_gmg.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/bgfg_gmg.o36"B70409CA-EF6C-4BDF-A4FD-72AECD9A81BA-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883943.964296
+e379883944.941327
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp3604f7a791a4b641^12fbf0a891a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp0000000000000000^3743"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o modules/video/src/camshift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/camshift.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/camshift.o36"16B074DC-815F-430A-BEE3-733754EF31DF-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883944.322175
+e379883945.433370
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cppd7a552a891a4b641^f1f06ea991a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp0000000000000000^3731"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o modules/video/src/kalman.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/kalman.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/kalman.o36"0006B6B0-0DA5-4902-AB86-8CA9E6BAEE80-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883944.366618
+e379883946.479620
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp31065ea891a4b641^74cf7aaa91a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp0000000000000000^3749"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o modules/video/src/lkpyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/lkpyramid.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/lkpyramid.o36"C6B57516-85B2-433C-BE3A-702E1142BF69-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883944.611288
+e379883945.818567
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp42979ca891a4b641^7e8cd1a991a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp0000000000000000^3737"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o modules/video/src/motempl.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/motempl.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/motempl.o36"DE7B9FBF-ED06-4F9F-8255-068A67E3357F-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883944.942658
+e379883946.348029
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp3f70f1a891a4b641^091859aa91a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp0000000000000000^3749"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o modules/video/src/optflowgf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/optflowgf.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/optflowgf.o36"5828E51C-68E8-43FE-98F0-F9B4005FFC54-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883945.103976
+e379883946.004771
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp2ec81aa991a4b641^8f3701aa91a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp0000000000000000^3737"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o modules/video/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/precomp.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o36"0E9993DE-DEE1-4DD9-9514-45F704D2892A-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883945.299978
+e379883946.860385
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp2ff84ca991a4b641^5342dcaa91a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp0000000000000000^3755"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o modules/video/src/simpleflow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/simpleflow.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/simpleflow.o36"D71FF29E-A5A4-40ED-83ED-DC853EDC6B9D-
+
+CCompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379883945.464345
+e379883946.486466
+r1
+xCompileC
+xios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cppdbf976a991a4b641^e8887caa91a4b641^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp0000000000000000^3755"CompileC ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o modules/video/src/video_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/imgproc/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/core/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/include -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources/armv7 -I/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -DNDEBUG -fomit-frame-pointer -ffast-math -MMD -MT dependencies -MF /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.d --serialize-diagnostics /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.dia -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/modules/video/src/video_init.cpp -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/video_init.o36"C3B32C7B-C05D-431A-BCB0-AF3D5FA6B496-
+
+CLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a normal armv7
+s379883946.932272
+e379883946.957568
+r1
+xLibtool
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Libtool ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a normal armv737c6eeaa91a4b641^cd21f5aa91a4b641^-311"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1224"Libtool ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a normal armv7    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -filelist /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/opencv_video.LinkFileList -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a36"7FF8E6EE-6AEF-4536-AD8F-8504F791E54A-
+
+CLibtool /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a normal armv7
+s379884007.295803
+e379884007.319530
+r1
+xLibtool
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Libtool ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a normal armv7f6cf4be791a4b641^4fcd51e791a4b641^-311"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1268"Libtool ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a normal armv7    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release -filelist /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Objects-normal/armv7/opencv_video.LinkFileList -o /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a36"9BEE5C8E-1A84-40C2-B596-135289A62445-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh
+s379884007.327666
+e379884007.368363
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_video.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_video.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'c86154e791a4b641^904d5ee791a4b641^-1052"echo "Depend check for xcode"Depend check for xcodecd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Releasemake[1]: Nothing to be done for `PostBuild.opencv_video.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Releasemake[1]: Nothing to be done for `PostBuild.opencv_video.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-379884007#0#30#-0#-----2@23"Depend check for xcode-379884007#30#23#-0#-----2@386"cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7 -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Release-379884007#53#386#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_video.Release'.-379884007#439#66#-0#-----2@30"echo "Depend check for xcode"-379884007#505#30#-0#-----2@23"Depend check for xcode-379884007#535#23#-0#-----2@428"cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video && make -C /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_video.Release-379884007#558#428#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_video.Release'.-379884007#986#66#-0#-----0#0#0#--463"PhaseScriptExecution "CMake PostBuild Rules" ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    /bin/sh -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/OpenCV.build/Release-iphoneos/opencv_video.build/Script-D53E2B0C882F47B69CC8494C.sh36"DBF3C019-F4D0-4D0A-A0DF-04DFFD6BB1FB-
+
+CSetMode u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+s379884007.718400
+e379884007.723608
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"SetMode u+w,go-w,a+rX ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.aceffb7e791a4b641^e63eb9e791a4b641^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a0000000000000000^685"SetMode u+w,go-w,a+rX ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a36"97A146D3-914E-4D38-B97E-4EBDA6BA6838-
+
+CSetOwnerAndGroup r2034kimo:staff /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+s379884007.702675
+e379884007.709885
+r1
+xSetOwnerAndGroup
+xr2034kimo:staff
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"SetOwnerAndGroup r2034kimo:staff ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a4cfab3e791a4b641^b2bab5e791a4b641^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a0000000000000000^707"SetOwnerAndGroup "r2034kimo:staff" ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "r2034kimo:staff" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a36"E5A021AE-59F3-4020-83EA-B59664B0A58B-
+
+CStripping /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+s379884007.376532
+e379884007.694432
+r1
+xStripping
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a(precomp.o)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Stripping ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.ab87860e791a4b641^e3c6b1e791a4b641^-285"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a0000000000000000^740"Stripping ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a36"904DECAD-CD21-49BA-8171-C6AE7C4DB000-
+
+CSymLink /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+s379884007.274414
+e379884007.279641
+r1
+xSymLink
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Process /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.ab55446e791a4b641^af9647e791a4b641^---0#0#0#--843"SymLink ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/modules/video/UninstalledProducts/libopencv_video.a /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7/lib/Release/libopencv_video.a36"98820E10-6A3A-431A-B86F-F6589C5B9D6E-
+

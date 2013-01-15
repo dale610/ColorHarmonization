@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh
+c0000000050F45ADD0000000000000122
+t1358191325
+s290
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6d547f7d92a4b641^8c837f7d92a4b641^---0#1#0#--18"Check dependencies36"C29B2526-72F8-4960-849F-349636209EBA-
+
+CPhaseScriptExecution "CMake Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh
+s379884157.499682
+e379884157.519542
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'af40807d92a4b641^8200857d92a4b641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-379884157#0#8#-0#-----2@26"echo Build\ all\ projects-379884157#9#26#-0#-----2@19"Build all projects-379884157#35#19#-0#-----0#0#0#--421"PhaseScriptExecution "CMake Rules" ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    /bin/sh -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-DD7FFDAF1C4F4D0F8A62E8B6.sh36"8025D2E0-8338-46E4-923F-D84691CBE290-
+

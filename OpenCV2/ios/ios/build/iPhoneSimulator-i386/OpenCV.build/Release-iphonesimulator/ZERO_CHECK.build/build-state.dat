@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh
+
+N/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh
+c0000000050F45B0E000000000000012D
+t1358191374
+s301
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesecdaaae492a4b641^f6f0b1e492a4b641^---0#1#0#--18"Check dependencies36"61BB5FC0-6393-4447-BEC9-26D0DEFBDE53-
+
+CPhaseScriptExecution "CMake Rules" /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh
+s379884260.742364
+e379884261.571946
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh
+oecho ""
+o
+omake -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'1475bee492a4b641^016a92e592a4b641^-207"echo ""make -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-379884260#0#8#-0#-----2@143"make -f /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make-379884260#9#143#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-379884261#152#55#-0#-----0#0#0#--447"PhaseScriptExecution "CMake Rules" ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh    cd /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2    /bin/sh -c /Users/r2034kimo/Documents/ComputerGraphics/ColorHarmonization/OpenCV2/ios/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-ED85E1A3C32745E2ADC20EB3.sh36"E550ABDE-0035-4FA5-80F5-848EE3C4CE02-
+

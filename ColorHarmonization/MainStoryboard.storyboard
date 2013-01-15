@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3006" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Tuh-Uo-urI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Zox-Ko-kyG">
+            <objects>
+                <viewController id="Tuh-Uo-urI" customClass="CHViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDo-Pj-yfh" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="testing.png" translatesAutoresizingMaskIntoConstraints="NO" id="axR-hS-cL2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="419" id="1gT-zT-fRy"/>
+                                    <constraint firstAttribute="width" constant="545" id="4wL-Cc-W5B"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="testing.png" translatesAutoresizingMaskIntoConstraints="NO" id="weZ-tc-BId">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="434" id="kIi-Z3-MF4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="weZ-tc-BId" firstAttribute="centerX" secondItem="wDo-Pj-yfh" secondAttribute="centerX" type="default" id="72q-lM-dc8"/>
+                            <constraint firstItem="weZ-tc-BId" firstAttribute="leading" secondItem="axR-hS-cL2" secondAttribute="leading" type="default" id="Jqu-YC-rqe"/>
+                            <constraint firstItem="weZ-tc-BId" firstAttribute="top" secondItem="axR-hS-cL2" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="k4p-0q-wds"/>
+                            <constraint firstItem="axR-hS-cL2" firstAttribute="top" secondItem="wDo-Pj-yfh" secondAttribute="top" constant="79" id="npV-B5-db2"/>
+                            <constraint firstItem="axR-hS-cL2" firstAttribute="trailing" secondItem="weZ-tc-BId" secondAttribute="trailing" type="default" id="wHZ-gd-Da3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="photo" destination="axR-hS-cL2" id="UAa-pf-aUX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6BE-qs-aB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="-40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="testing.png" width="320" height="322"/>
+    </resources>
+    <classes>
+        <class className="CHViewController" superclassName="GLKViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CHViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="photo" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
